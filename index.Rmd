@@ -16,7 +16,7 @@ output:
 ---
  
 ## Bio
-My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards for my analysis.Currently learning Tableau for Sports.
+My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards for my analysis.
 
 
 ## Education
