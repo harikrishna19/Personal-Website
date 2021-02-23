@@ -16,7 +16,7 @@ output:
 ---
  
 ## Bio
-I'm Hari Krishna.My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards for my analysis.
+My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards for my analysis.Currently learning Tableau for Sports.
 
 
 ## Education
@@ -38,4 +38,4 @@ B.S.C. in Mathematics,Statistics & Computer Science | June 2016 - April 2019
 
 ## Experience
 
-**Kabaddi Adda** | Analyst | Intern | November 2019 - February 2021
+**Kabaddi Adda** | Analyst | Intern | November 2020 - February 2021

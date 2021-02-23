@@ -1,0 +1,56 @@
+---
+title: "2019/20 Top 5 European Leagues Analysis"
+preview: footy1.jpg
+description: |
+  Analysis on Top 5 European Leagues(PL,Bundesliga,La Liga,Serie A,Ligue 1)
+categories: Football,Sports
+author: Hari Krishna
+date: 2021-02-23
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+**Overview:**
+
+Top 5 European Leagues majorly involve leagues played in Italy,England,France,Germany and Spain.
+
+An interactive dashboard is being implemented to display all the related statistics for respective players and leagues.This project is mainly contains lot of visualizations and we interpret results from it.
+
+**Data:**
+
+FIFA Ratings data from [**https://sofifa.com/**](https://sofifa.com/) is used for exploratory data analysis to display radar charts,bar charts.
+
+FBREF-[**https://fbref.com/en/**](https://fbref.com/en/) is used for ranking of players based on certain criteria and attributes.
+
+For Transfer data is scraped from [**https://www.transfermarkt.co.in/**](https://www.transfermarkt.co.in/)
+
+**Description:**
+
+-   Home Page
+
+-   League Stats
+
+-   Player Comparison
+
+-   Loan Analysis
+
+-   Ranking
+
+**League Stats-** Visualizations of world map,bar charts and certain key metric calculations are displayed
+
+**Player Comparison-** Radar Charts are displayed based on official FIFA card rating
+
+**Loan Analysis-** Profit and Loss Ratio of teams with respect to Transfer Markt
+
+**Ranking-** A mathematical approach is implemented for ranking
+
+-   AHP(Analytic Hierarchy Process) is used for calculating weights for the attributes
+
+-   Technique for Order of Preference by Similarity to Ideal Solution (***TOPSIS***) is used to calculate ranks
+
+    This project is also a part of my research in my college curriculum.Due to publish research paper during the month of May 2021
+
+    Project Details can be found via this [link](https://github.com/harikrishna19/2019-20-Top-5-European-leagues-analysis)
+
+    Project Link will be updated soon
