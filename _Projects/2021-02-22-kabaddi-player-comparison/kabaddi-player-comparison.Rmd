@@ -22,4 +22,4 @@ For Defenders **Tackle Points,Number of Tackles are** is displayed
 
 **Tools Used-R Shiny, R, MySQL**
 
-Link for the App-[Link](https://harikrishna19.shinyapps.io/Player_Profiling_Kabaddi/)
+[Link for the APP](https://harikrishna19.shinyapps.io/Player_Profiling_Kabaddi/)
