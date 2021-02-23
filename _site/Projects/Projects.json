@@ -15,8 +15,8 @@
     ],
     "contents": "\r\nOverview:\r\nTop 5 European Leagues majorly involve leagues played in Italy,England,France,Germany and Spain.\r\nAn interactive dashboard is being implemented to display all the related statistics for respective players and leagues.This project is mainly contains lot of visualizations and we interpret results from it.\r\nData:\r\nFIFA Ratings data from https://sofifa.com/ is used for exploratory data analysis to display radar charts,bar charts.\r\nFBREF-https://fbref.com/en/ is used for ranking of players based on certain criteria and attributes.\r\nFor Transfer data is scraped from https://www.transfermarkt.co.in/\r\nDescription:\r\nHome Page\r\nLeague Stats\r\nPlayer Comparison\r\nLoan Analysis\r\nRanking\r\nLeague Stats- Visualizations of world map,bar charts and certain key metric calculations are displayed\r\nPlayer Comparison- Radar Charts are displayed based on official FIFA card rating\r\nLoan Analysis- Profit and Loss Ratio of teams with respect to Transfer Markt\r\nRanking- A mathematical approach is implemented for ranking\r\nAHP(Analytic Hierarchy Process) is used for calculating weights for the attributes\r\nTechnique for Order of Preference by Similarity to Ideal Solution (TOPSIS) is used to calculate ranks\r\nThis project is also a part of my research in my college curriculum.Due to publish research paper during the month of May 2021\r\nProject Details can be found via this link\r\nProject Link will be updated soon\r\n\r\n",
     "preview": "Projects/2021-02-23-201920-top-5-european-leagues-analysis/footy1.jpg",
-    "last_modified": "2021-02-23T19:35:23+05:30",
-    "input_file": "201920-top-5-european-leagues-analysis.utf8.md"
+    "last_modified": "2021-02-23T19:35:24+05:30",
+    "input_file": {}
   },
   {
     "path": "Projects/2021-02-22-kabaddi-player-comparison/",
