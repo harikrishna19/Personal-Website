@@ -1,0 +1,21 @@
+
+name: "."
+title: "Hari Krishna"
+# base_url: https://www.harikrishna.com/
+description: |
+  Hari Krishna
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Projects"
+      href: projects.html
+# collections:
+#  posts:
+#     disqus: 
+#         shortname: harikrishna-distill
+#         show: true
+output: distill::distill_article

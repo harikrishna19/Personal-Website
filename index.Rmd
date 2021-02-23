@@ -1,0 +1,41 @@
+---
+title: "Hari Krishna"
+image: "Hari.jpg"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/in/hharikri19"
+  - label: Twitter
+    url: "https://twitter.com/Hakrishna19"
+  - label: GitHub
+    url: "https://github.com/harikrishna19"
+  - label: Email
+    url: "mailto:krishna19599@gmail.com"
+site: distill::distill_website
+output:
+ postcards::trestles
+---
+ 
+## Bio
+I'm Hari Krishna.My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards for my analysis.
+
+
+## Education
+
+**Christ University** | Bangalore, India
+
+Master's in Data Science | June 2019-April 2021
+
+**Loyola Degree & PG College** | Telangana,India
+
+B.S.C. in Mathematics,Statistics & Computer Science | June 2016 - April 2019
+
+
+## Interests
+
+* Sports Analytics
+* Statistics
+* Machine Learning
+
+## Experience
+
+**Kabaddi Adda** | Analyst | Intern | November 2019 - February 2021

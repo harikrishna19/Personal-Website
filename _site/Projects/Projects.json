@@ -1,0 +1,21 @@
+[
+  {
+    "path": "Projects/2021-02-22-kabaddi-player-comparison/",
+    "title": "Kabaddi Player Comparison",
+    "description": "Comparing Kabaddi Players of different teams and tournaments based on important metrics",
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-22",
+    "categories": [
+      "PKL, Sports"
+    ],
+    "contents": "\r\nWhat it is\r\nKabaddi Player Comparison is an application in which all the players can be compared based on several metrics with respect to different tournaments and teams.\r\n\r\n\r\n\r\n",
+    "preview": "Projects/2021-02-22-kabaddi-player-comparison/Image_Kabaddi.jpg",
+    "last_modified": "2021-02-23T16:13:20+05:30",
+    "input_file": {}
+  }
+]

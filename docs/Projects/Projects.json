@@ -1,0 +1,21 @@
+[
+  {
+    "path": "Projects/2021-02-22-kabaddi-player-comparison/",
+    "title": "Kabaddi Player Comparison",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-22",
+    "categories": [
+      "PKL, Sports"
+    ],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-22T13:57:13+05:30",
+    "input_file": {}
+  }
+]
