@@ -14,28 +14,29 @@ site: distill::distill_website
 output:
  postcards::trestles
 ---
- 
+
 ## Bio
-My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards for my analysis.
 
-
-## Education
-
-**Christ University** | Bangalore, India
-
-Master's in Data Science | June 2019-April 2021
-
-**Loyola Degree & PG College** | Telangana,India
-
-B.S.C. in Mathematics,Statistics & Computer Science | June 2016 - April 2019
-
-
-## Interests
-
-* Sports Analytics
-* Statistics
-* Machine Learning
+Looking forward to starting a full time career in the Data Science industry.My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards
 
 ## Experience
 
-**Kabaddi Adda** | Analyst | Intern | November 2020 - February 2021
+**Kabaddi Adda** \| Analyst \| Intern \| November 2020 - February 2021
+
+## Education
+
+**Christ University** \| Bangalore, India
+
+Master's in Data Science \| June 2019-April 2021
+
+**Loyola Degree & PG College** \| Telangana, India
+
+B.S.C. in Mathematics,Statistics & Computer Science \| June 2016 - April 2019
+
+## Interests
+
+-   Sports Analytics
+-   Statistics
+-   Machine Learning
+
+You can check my **blogs,projects,CV** in the above menu and to get in touch with me follow my social handles linked

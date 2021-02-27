@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Hari Krishna</title>
+    <link>https://www.harikrishna.com/</link>
+    <atom:link href="https://www.harikrishna.com/projects.xml" rel="self" type="application/rss+xml"/>
+    <description>Hari Krishna
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>2019/20 Top 5 European Leagues Analysis</title>
+      <dc:creator>Hari Krishna</dc:creator>
+      <link>https://www.harikrishna.com/Projects/2021-02-23-201920-top-5-european-leagues-analysis</link>
+      <description>Analysis on Top 5 European Leagues(PL,Bundesliga,La Liga,Serie A,Ligue 1)</description>
+      <category>Football,Sports</category>
+      <guid>https://www.harikrishna.com/Projects/2021-02-23-201920-top-5-european-leagues-analysis</guid>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.harikrishna.com/Projects/2021-02-23-201920-top-5-european-leagues-analysis/footy1.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Kabaddi Player Comparison</title>
+      <dc:creator>Hari Krishna</dc:creator>
+      <link>https://www.harikrishna.com/Projects/2021-02-22-kabaddi-player-comparison</link>
+      <description>Comparing Kabaddi Players of different teams and tournaments based on important metrics</description>
+      <category>Kabaddi, Sports</category>
+      <guid>https://www.harikrishna.com/Projects/2021-02-22-kabaddi-player-comparison</guid>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.harikrishna.com/Projects/2021-02-22-kabaddi-player-comparison/Image_Kabaddi.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

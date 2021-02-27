@@ -34,7 +34,7 @@
     ],
     "contents": "\r\nWhat it is\r\nKabaddi Player Comparison is an application in which all the players can be compared based on several metrics with respect to different tournaments and teams.\r\nIn this project, we majorly analyze pro kabaddi league and derive different player metrics\r\nFor Raiders Raid Points,Effective Points, Bonus Points etc is displayed\r\nFor Defenders Tackle Points,Number of Tackles are is displayed\r\nTools Used-R Shiny, R, MySQL\r\nLink for the APP\r\n\r\n\r\n\r\n",
     "preview": "Projects/2021-02-22-kabaddi-player-comparison/Image_Kabaddi.jpg",
-    "last_modified": "2021-02-23T20:34:13+05:30",
-    "input_file": "kabaddi-player-comparison.utf8.md"
+    "last_modified": "2021-02-23T20:34:14+05:30",
+    "input_file": {}
   }
 ]

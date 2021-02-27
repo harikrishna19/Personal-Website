@@ -1,10 +1,12 @@
 
 name: "."
+
 title: "Hari Krishna"
-# base_url: https://www.harikrishna.com/
 description: |
   Hari Krishna
 output_dir: "_site"
+base_url: https://www.harikrishna.com/
+repository_url: https://github.com/harikrishna19/Personal-Website
 navbar:
   right:
     - text: "Home"
@@ -13,9 +15,11 @@ navbar:
       href: blog.html
     - text: "Projects"
       href: projects.html
-# collections:
-#  posts:
-#     disqus: 
-#         shortname: harikrishna-distill
-#         show: true
+    - text: "CV"
+      href: Resume.pdf
+collections:
+  posts:
+    disqus: harikrishna-distill
+    hidden: false
+    share: [twitter, linkedin]
 output: distill::distill_article
