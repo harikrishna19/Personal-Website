@@ -22,4 +22,5 @@ collections:
     disqus: harikrishna-distill
     hidden: false
     share: [twitter, linkedin]
+    citation: false
 output: distill::distill_article

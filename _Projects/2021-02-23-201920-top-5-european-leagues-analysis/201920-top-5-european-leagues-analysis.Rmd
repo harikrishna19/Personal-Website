@@ -3,7 +3,8 @@ title: "2019/20 Top 5 European Leagues Analysis"
 preview: footy1.jpg
 description: |
   Analysis on Top 5 European Leagues(PL,Bundesliga,La Liga,Serie A,Ligue 1)
-categories: Football,Sports
+categories: 
+- Sports
 author: Hari Krishna
 date: 2021-02-23
 output:

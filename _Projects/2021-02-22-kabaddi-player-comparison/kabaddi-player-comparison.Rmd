@@ -4,7 +4,8 @@ preview: Image_Kabaddi.jpg
 description: Comparing Kabaddi Players of different teams and tournaments based on important metrics
 author: Hari Krishna
 date: 2021-02-22
-categories: Kabaddi, Sports
+categories: 
+- Sports
 output:
   distill::distill_article:
     self_contained: false
