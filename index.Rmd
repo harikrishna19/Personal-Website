@@ -17,11 +17,15 @@ output:
 
 ## Bio
 
-Looking forward to starting a full time career in the Data Science industry.My interests include sports analytics,statistics and data Visualizations.I tend to do most of my work using R and I love building data dashboards
+Looking forward to starting a full time career in the Data Science industry.I tend to do most of my work using R and I love building data dashboards
 
 ## Experience
 
 **Kabaddi Adda** \| Analyst \| Intern \| November 2020 - February 2021
+
+-   Built Player Comparison Dashboard using R Shiny
+
+-   Exploratory Data Analysis on Pro Kabaddi data
 
 ## Education
 
