@@ -16,7 +16,7 @@ navbar:
     - text: "Projects"
       href: projects.html
     - text: "CV"
-      href: Resume-1.pdf
+      href: Resume-2.pdf
 collections:
   posts:
     disqus: harikrishna-distill
