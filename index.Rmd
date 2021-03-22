@@ -27,6 +27,8 @@ Looking forward to starting a full time career in the Data Science industry.I te
 
 -   Exploratory Data Analysis on Pro Kabaddi data
 
+-   Identifying key player metrics for analysis
+
 ## Education
 
 **Christ University** \| Bangalore, India
