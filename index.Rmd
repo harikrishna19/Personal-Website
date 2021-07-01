@@ -17,7 +17,7 @@ output:
 
 ## Bio
 
-I'm Hari Krishna,currently working as a **Data Analyst** at Prodian-InfoTech. Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in the programming community.
+I'm Hari Krishna,currently working as a **Data Engineer** at Prodian-InfoTech. Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in the programming community.
 
 My Blogs & Projects are majorly related to **Sports**
 
@@ -31,7 +31,7 @@ My Blogs & Projects are majorly related to **Sports**
 
 -   Identifying key player metrics for analysis
 
-**Prodian Infotech \|** Production Engineer **\|** May 2021
+**Prodian Infotech \|** Data Engineer **\|** May 2021
 
 ## Education
 
