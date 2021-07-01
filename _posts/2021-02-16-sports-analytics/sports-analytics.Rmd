@@ -73,7 +73,7 @@ Recently,NBA Team Utah Jazz used Python Dash in players draft for the season 202
 
 -   [**https://in.nba.com/?gr=www**](https://in.nba.com/?gr=www)
 
--   <https://github.com/josedv82/shinyAMS-resources> For R Shiny
+-   **https://github.com/josedv82/shinyAMS-resources** For R Shiny
 
 **Tennis:**
 
