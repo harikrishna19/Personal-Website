@@ -51,3 +51,8 @@ For Transfer data is scraped from [**https://www.transfermarkt.co.in/**](https:/
 -   Technique for Order of Preference by Similarity to Ideal Solution (***TOPSIS***) is used to calculate ranks
 
     Project Details can be found via this [link](https://github.com/harikrishna19/2019-20-Top-5-European-leagues-analysis)
+    
+Project Link-Only Visualizations Included-
+[link](http://harikrishna19.shinyapps.io/Football_App)
+    
+    
