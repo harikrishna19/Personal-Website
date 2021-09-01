@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2021-09-01-tidy-tuesday-contributions/",
+    "title": "Tidy Tuesday Contributions",
+    "description": "Contributions for \"R\" Tidy Tuesday Weekly Project",
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2021-09-01",
+    "categories": [],
+    "contents": "\r\nTidy Tuesday is a weekly R project where people contribute weekly to showcase their R skills\r\nGithub Repo for Tidy Tuesday: Tidy-Tuesday Link\r\nMy Tidy Tuesday Contributions:\r\nOlympics Shiny App: Week31- 2021-07-27\r\nApp Description & Link: Olympics_App\r\nOutput table where athletes details are displayed based on Country,Sport & Year,\r\nPlot displays the medals won by a particular country,sport and year. Medal count is counted for all sports(team sports included as well).\r\n\r\n\r\n",
+    "preview": "posts/2021-09-01-tidy-tuesday-contributions/TT.png",
+    "last_modified": "2021-09-01T14:54:10+05:30",
+    "input_file": "tidy-tuesday-contributions.knit.md",
+    "preview_width": 225,
+    "preview_height": 225
+  },
+  {
     "path": "posts/2021-02-16-college-magazine-articles/",
     "title": "College Magazine Articles",
     "description": "Articles which got published in Official College Magazine",
@@ -27,10 +46,12 @@
       }
     ],
     "date": "2021-02-16",
-    "categories": [],
+    "categories": [
+      "Sports"
+    ],
     "contents": "\r\n\r\nAs a sports enthusiast,I always explore data and stats with respect to all sports.There are a lot of resources for sports analytics which tells us the beauty of sports and data.\r\nSports has always been part of my life.\r\nResources for Sports Analytics:\r\nAll major resources in this blog is covered.If I miss out I will be updating it later.\r\nFootball:\r\nFbref-One of the top football statistics site in which event data can be downloaded across all the famous leagues. https://fbref.com/en/\r\nUnderStat- https://understat.com/\r\nTransfer Markt- https://www.transfermarkt.co.in/\r\nPySport- All of us use different programming languages for our analysis. PySport is a wonderful site in which we can find lot of packages,data,tutorials,documentation for implementing sport analytics.\r\nhttps://pysport.org/\r\nThey also have a great community and also on discord.The link to the discord link\r\nStatsBomb-One of the top sites for football blogs.Analysis is great and they also provide free data.There is a statsBomb conference on 17th March 2021 which is a free online event.Do not miss that.\r\nOther football blog sites-\r\nhttps://www.fourfourtwo.com/\r\nhttps://fivethirtyeight.com/sports/\r\n\r\nTutorials-\r\nhttps://fcpython.com/\r\nhttp://fcrstats.com/\r\nFriends of Tracking Youtube-link\r\nTableau for Sports-link\r\n\r\nConferences-\r\nhttps://statsbomb.com/conference/\r\nOpta Sport Conference-link\r\n\r\nBasketball:\r\nThere is another sport in which lot of analytics is being done and no surprise.Its Basketball.\r\nRecently,NBA Team Utah Jazz used Python Dash in players draft for the season 2020-21 article\r\nResources for BasketBall-\r\nhttps://www.basketball-reference.com/\r\nhttps://www.positiveresidual.com/\r\nhttps://in.nba.com/?gr=www\r\nhttps://github.com/josedv82/shinyAMS-resources For R Shiny\r\nTennis:\r\nhttp://tennisabstract.com/\r\nCricket:\r\nhttps://cricsheet.org/downloads/\r\nhttps://wisden.com/\r\nThere is a lot more to come .I’ll keep this blog post updated.If you are interested in sports analytics and wanted to work along with me ping me on Twitter link\r\n\r\n",
     "preview": "posts/2021-02-16-sports-analytics/sport1.jpg",
-    "last_modified": "2021-06-27T22:07:30+05:30",
+    "last_modified": "2021-09-01T14:11:26+05:30",
     "input_file": {}
   }
 ]
