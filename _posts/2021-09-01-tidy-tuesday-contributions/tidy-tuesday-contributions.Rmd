@@ -26,7 +26,4 @@ My Tidy Tuesday Contributions:
 
     Plot displays the medals won by a particular country,sport and year. Medal count is counted for all sports(team sports included as well).
 
-
-
-
     \
