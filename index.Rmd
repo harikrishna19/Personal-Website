@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "M Hari Krishna"
-=======
 title: "Hari Krishna"
->>>>>>> 1a3e3dde1257a999f73fd0c1ea8b845f8521348d
 image: "Hari.jpg"
 links:
   - label: LinkedIn
@@ -21,17 +17,12 @@ output:
 
 ## Bio
 
-<<<<<<< HEAD
-I'm Hari Krishna,currently working as a **Data Engineer** at Prodian-InfoTech.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
+I'm Hari Krishna,currently working as a **Data Analyst** at Prodian-InfoTech.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
 
 You can check my **Blogs,Projects,CV** in the above menu and to get in touch with me follow my social handles linked
 
 For Better view of the site, Use **Desktop Mode**
-=======
-I'm Hari Krishna,currently working as a **Data Engineer** at Prodian-InfoTech. Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.
 
-My Blogs & Projects are majorly related to **Sports**
->>>>>>> 1a3e3dde1257a999f73fd0c1ea8b845f8521348d
 
 ## Experience
 
@@ -43,17 +34,16 @@ My Blogs & Projects are majorly related to **Sports**
 
 -   Identifying key player metrics for analysis
 
-**Prodian Infotech \|** Data Engineer **\|** May 2021
+**Prodian Infotech \|** Data Analyst **\|** May 2021
 
-<<<<<<< HEAD
+
 -   Built Classification models on Car Insurance Data
 
 -   Worked on Automated ML platform-DataRobot
 
 -   Carried out EDA process and calculated statistical measures for important variables
 
-=======
->>>>>>> 1a3e3dde1257a999f73fd0c1ea8b845f8521348d
+
 ## Education
 
 **Christ University** \| Bangalore, India
@@ -63,8 +53,6 @@ Master's in Data Science \| June 2019-April 2021
 **Loyola Degree & PG College** \| Telangana, India
 
 B.S.C. in Mathematics,Statistics & Computer Science \| June 2016 - April 2019
-<<<<<<< HEAD
-=======
 
-You can check my **blogs,projects,CV** in the above menu and to get in touch with me follow my social handles linked
->>>>>>> 1a3e3dde1257a999f73fd0c1ea8b845f8521348d
+
+
