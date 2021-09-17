@@ -1,0 +1,26 @@
+
+name: "."
+
+title: "Hari Krishna"
+description: |
+  Hari Krishna
+output_dir: "_site"
+base_url: https://www.harikrishna.com/
+repository_url: https://github.com/harikrishna19/Personal-Website
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Projects"
+      href: projects.html
+    - text: "CV"
+      href: Hari Krishna M.pdf
+collections:
+  posts:
+    disqus: harikrishna-distill
+    hidden: false
+    share: [twitter, linkedin]
+    citation: false
+output: distill::distill_article

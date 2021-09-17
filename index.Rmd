@@ -1,0 +1,52 @@
+---
+title: "M Hari Krishna"
+image: "Hari.jpg"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/in/hharikri19"
+  - label: Twitter
+    url: "https://twitter.com/hari19599"
+  - label: GitHub
+    url: "https://github.com/harikrishna19"
+  - label: Email
+    url: "mailto:krishna19599@gmail.com"
+site: distill::distill_website
+output:
+ postcards::solana
+---
+
+## Bio
+
+I'm Hari Krishna,currently working as a **Data Engineer** at Prodian-InfoTech.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
+
+You can check my **Blogs,Projects,CV** in the above menu and to get in touch with me follow my social handles linked
+
+For Better view of the site, Use **Desktop Mode**
+
+## Experience
+
+**Kabaddi Adda** \| Analyst \| Intern \| November 2020 - February 2021
+
+-   Built Player Comparison Dashboard using R Shiny
+
+-   Exploratory Data Analysis on Pro Kabaddi data
+
+-   Identifying key player metrics for analysis
+
+**Prodian Infotech \|** Data Engineer **\|** May 2021
+
+-   Built Classification models on Car Insurance Data
+
+-   Worked on Automated ML platform-DataRobot
+
+-   Carried out EDA process and calculated statistical measures for important variables
+
+## Education
+
+**Christ University** \| Bangalore, India
+
+Master's in Data Science \| June 2019-April 2021
+
+**Loyola Degree & PG College** \| Telangana, India
+
+B.S.C. in Mathematics,Statistics & Computer Science \| June 2016 - April 2019

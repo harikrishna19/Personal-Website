@@ -1,0 +1,88 @@
+---
+title: "Sports Analytics"
+preview: sport1.jpg
+description: |
+  Resources for Sports Analytics
+author: Hari Krishna
+date: 2021-02-16
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+![](https://en.unesco.org/sites/default/files/styles/commemoration_header/public/commemorations/shutterstock_599738306.jpg?itok=uwCK97T9){width="1000"}
+
+As a sports enthusiast,I always explore data and stats with respect to all sports.There are a lot of resources for sports analytics which tells us the beauty of sports and data.
+
+Sports has always been part of my life.
+
+**Resources for Sports Analytics:**
+
+All major resources in this blog is covered.If I miss out I will be updating it later.
+
+**Football:**
+
+-   **Fbref-**One of the top football statistics site in which event data can be downloaded across all the famous leagues. [**https://fbref.com/en/**](https://fbref.com/en/)
+
+-   **UnderStat- <https://understat.com/>**
+
+-   **Transfer Markt- <https://www.transfermarkt.co.in/>**
+
+-   **PySport-** All of us use different programming languages for our analysis. PySport is a wonderful site in which we can find lot of packages,data,tutorials,documentation for implementing sport analytics.
+
+    [**https://pysport.org/**](https://pysport.org/)
+
+    They also have a great community and also on discord.The link to the discord [**link**](https://discord.com/invite/pMZ57FC)
+
+-   **StatsBomb-**One of the top sites for football blogs.Analysis is great and they also provide free data.There is a statsBomb conference on 17th March 2021 which is a free online event.Do not miss that.
+
+-   Other football blog sites-
+
+    -   [**https://www.fourfourtwo.com/**](https://www.fourfourtwo.com/)
+
+    -   [**https://fivethirtyeight.com/sports/**](https://fivethirtyeight.com/sports/)
+
+-   **Tutorials-**
+
+    -   [**https://fcpython.com/**](https://fcpython.com/)
+
+    -   [**http://fcrstats.com/**](http://fcrstats.com/)
+
+    -   Friends of Tracking Youtube-[**link**](https://www.youtube.com/channel/UCUBFJYcag8j2rm_9HkrrA7w)
+
+    -   Tableau for Sports-[**link**](https://www.youtube.com/channel/UCDhJJgBbFDk4CCcj-N9rHuA)
+
+-   **Conferences-**
+
+    -   [**https://statsbomb.com/conference/**](https://statsbomb.com/conference/)
+
+    -   **Opta Sport Conference-[link](https://www.youtube.com/user/optasports)**
+
+
+**Basketball:**
+
+There is another sport in which lot of analytics is being done and no surprise.Its Basketball.
+
+Recently,NBA Team Utah Jazz used Python Dash in players draft for the season 2020-21 [article](https://twitter.com/plotlygraphs/status/1336712674755944448?lang=en)
+
+**Resources for BasketBall-**
+
+-   [**https://www.basketball-reference.com/**](https://www.basketball-reference.com/)
+
+-   [**https://www.positiveresidual.com/**](https://www.positiveresidual.com/)
+
+-   [**https://in.nba.com/?gr=www**](https://in.nba.com/?gr=www)
+
+-   **https://github.com/josedv82/shinyAMS-resources** For R Shiny
+
+**Tennis:**
+
+-   [**http://tennisabstract.com/**](http://tennisabstract.com/)
+
+**Cricket:**
+
+-   [**https://cricsheet.org/downloads/**](https://cricsheet.org/downloads/)
+
+-   [**https://wisden.com/**](https://wisden.com/)
+
+    There is a lot more to come .I'll keep this blog post updated.If you are interested in sports analytics and wanted to work along with me ping me on **Twitter** [link](https://twitter.com/Hakrishna19)

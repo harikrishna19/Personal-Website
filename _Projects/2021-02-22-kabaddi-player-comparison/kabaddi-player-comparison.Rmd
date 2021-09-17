@@ -1,0 +1,24 @@
+---
+title: "Kabaddi Player Comparison"
+preview: Image_Kabaddi.jpg
+description: Comparing Kabaddi Players of different teams and tournaments based on important metrics
+author: Hari Krishna
+date: 2021-02-22
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+**What it is**
+
+Kabaddi Player Comparison is an application in which all the players can be compared based on several metrics with respect to different tournaments and teams.
+
+In this project, we majorly analyze pro kabaddi league and derive different player metrics
+
+For Raiders **Raid Points,Effective Points, Bonus Points etc** is displayed
+
+For Defenders **Tackle Points,Number of Tackles are** is displayed
+
+**Tools Used-R Shiny, R, MySQL**
+
+[Link for the APP](https://harikrishna19.shinyapps.io/Player_Profiling_Kabaddi/)

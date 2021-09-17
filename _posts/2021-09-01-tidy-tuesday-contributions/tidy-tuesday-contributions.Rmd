@@ -1,0 +1,29 @@
+---
+title: "Tidy Tuesday Contributions"
+preview: TT.png
+description: |
+  Contributions for "R" Tidy Tuesday Weekly Project
+author:
+  - name: Hari Krishna
+    url: {}
+date: 2021-09-01
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Tidy Tuesday is a weekly R project where people contribute weekly to showcase their **R** skills
+
+Github Repo for Tidy Tuesday: [**Tidy-Tuesday Link**](https://github.com/rfordatascience/tidytuesday "Tidy_Tuesday")
+
+My Tidy Tuesday Contributions:
+
+1.  **Olympics Shiny App: Week31- 2021-07-27**
+
+    **App Description & Link**: [**Olympics_App**](https://harikrishna19.shinyapps.io/Olympics-TidyTuesday/ "Olympics_Shiny_App")
+
+    Output table where athletes details are displayed based on Country,Sport & Year,
+
+    Plot displays the medals won by a particular country,sport and year. Medal count is counted for all sports(team sports included as well).
+
+    \
