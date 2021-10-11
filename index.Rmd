@@ -3,7 +3,7 @@ title: "Hari Krishna"
 image: "Hari.jpg"
 links:
   - label: LinkedIn
-    url: "https://linkedin.com/in/hharikri19"
+    url: "https://www.linkedin.com/in/hari19"
   - label: Twitter
     url: "https://twitter.com/hari19599"
   - label: GitHub
