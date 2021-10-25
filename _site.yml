@@ -6,6 +6,7 @@ description: |
   Hari Krishna
 output_dir: "_site"
 base_url: https://www.harikrishna.com/
+theme: theme.css
 repository_url: https://github.com/harikrishna19/Personal-Website
 navbar:
   right:
@@ -19,8 +20,11 @@ navbar:
       href: Hari Krishna M.pdf
 collections:
   posts:
-    disqus: harikrishna-distill
-    hidden: false
+    disqus: harikrishna19
+    hidden: true
     share: [twitter, linkedin]
     citation: false
-output: distill::distill_article
+output:
+  distill::distill_article:
+  
+  
