@@ -17,7 +17,7 @@ navbar:
     - text: "Projects"
       href: projects.html
     - text: "CV"
-      href: Hari Krishna M.pdf
+      href: Hari Krishna M(1).pdf
 collections:
   posts:
     disqus: harikrishna19
