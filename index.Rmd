@@ -27,6 +27,15 @@ For Better view of the site, Use **Desktop Mode**
 
 ## Experience
 
+**Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
+
+
+-   Effectively used ML algorithms(Classification,Clustering) on Car Insurance Data
+
+-   Worked on Automated ML platform-DataRobot
+
+-   Carried out EDA process and calculated statistical measures for important variables
+
 **Kabaddi Adda** \| Analyst \| Intern \| November 2020 - February 2021
 
 -   Built Player Comparison Dashboard using R Shiny
@@ -34,16 +43,6 @@ For Better view of the site, Use **Desktop Mode**
 -   Exploratory Data Analysis on Pro Kabaddi data
 
 -   Identifying key player metrics for analysis
-
-**Prodian Infotech \|** Data Analyst **\|** May 2021
-
-
--   Built Classification models on Car Insurance Data
-
--   Worked on Automated ML platform-DataRobot
-
--   Carried out EDA process and calculated statistical measures for important variables
-
 
 ## Education
 
