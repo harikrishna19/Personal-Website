@@ -29,10 +29,9 @@ For Better view of the site, Use **Desktop Mode**
 
 **Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
 
-
 -   Effectively used ML algorithms(Classification,Clustering) on Car Insurance Data
 
--   Worked on Automated ML platform-DataRobot
+-   Worked on Automated ML platform-Data Robot
 
 -   Carried out EDA process and calculated statistical measures for important variables
 
