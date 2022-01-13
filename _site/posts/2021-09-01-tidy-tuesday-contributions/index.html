@@ -1885,7 +1885,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2434,7 +2437,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a href="../../index.html">Home</a>
 <a href="../../blog.html">Blog</a>
 <a href="../../projects.html">Projects</a>
-<a href="../../Hari Krishna M(1).pdf">CV</a>
+<a href="../../Hari-Krishna.pdf">CV</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
