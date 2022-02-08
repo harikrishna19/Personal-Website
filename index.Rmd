@@ -27,7 +27,7 @@ For Better view of the site, Use **Desktop Mode**
 
 ## Experience
 
-**Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
+**Prodian Infotech \|** Data Analyst **\|** May 2021 - Present
 
 -   Effectively used ML algorithms(Classification,Clustering) on Car Insurance Data
 
