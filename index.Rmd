@@ -18,7 +18,7 @@ output:
 
 ## Bio
 
-I'm Hari Krishna,currently working as a **Data Analyst** at Prodian-InfoTech.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
+I'm Hari Krishna,currently working as a **R/Shiny Developer** at DataZymes.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
 
 You can check my **Blogs,Projects,CV** in the above menu and to get in touch with me follow my social handles linked
 
@@ -27,7 +27,10 @@ For Better view of the site, Use **Desktop Mode**
 
 ## Experience
 
-**Prodian Infotech \|** Data Analyst **\|** May 2021 - Present
+**DataZymes \|** R/Shiny Developer **\|** February 2022 - Present
+
+
+**Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
 
 -   Effectively used ML algorithms(Classification,Clustering) on Car Insurance Data
 
