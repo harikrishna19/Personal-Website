@@ -29,6 +29,10 @@ For Better view of the site, Use **Desktop Mode**
 
 **DataZymes \|** R/Shiny Developer **\|** February 2022 - Present
 
+- Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis
+
+- Implemented Machine learning modules in the dashboard 
+
 
 **Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
 
