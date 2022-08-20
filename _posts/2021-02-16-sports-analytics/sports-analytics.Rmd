@@ -86,6 +86,6 @@ Recently,NBA Team Utah Jazz used Python Dash in players draft for the season 202
 
 **For R Programmers:**
 
--   [R Resources/Guide for Sports Analytics](https://docs.google.com/spreadsheets/d/16Xvhl7fCKEs1JTr-VXPZDmctO2gq4TcmuNmAhoHQQs0/edit#gid=507593318 "R Programming")
+-   [**R Resources/Guide for Sports Analytics**](https://docs.google.com/spreadsheets/d/16Xvhl7fCKEs1JTr-VXPZDmctO2gq4TcmuNmAhoHQQs0/edit#gid=507593318 "R Programming")
 
     There is a lot more to come .I'll keep this blog post updated.If you are interested in sports analytics and wanted to work along with me ping me on **Twitter** [link](https://twitter.com/Hakrishna19)

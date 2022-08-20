@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-08-20-r-shiny-resuorces/",
+    "title": "R Shiny Resuorces",
+    "description": "Resources for learning  R Shiny",
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2022-08-20",
+    "categories": [],
+    "contents": "\r\nShinyI always use Shiny at work for building dashboards which is\r\nchallenging and exciting.\r\n\r\n\r\nlibrary(shiny)\r\n\r\n\r\n\r\nA curated list of R Shiny Resources to learn from which includes\r\nconferences,tutorials,documentations\r\nShiny Official Site: Shiny-Official Site\r\nIncludes all R Packages which can be used with\r\nShiny: Shiny-Extensions\r\nMastering Shiny by Hadley Wickham: Mastering-Shiny\r\nShiny related books includes(UI Design,Javascript etc): Shiny-Books\r\nConference Videos/Playlists:\r\nAppsilon Shiny Conference: 2022-Conf\r\nShiny Developer Series: By Eric\r\nNantz\r\nShiny Dev conf 2016: By Joe\r\nCheng\r\nRStudio::conf(2022): The\r\nPast and future of Shiny\r\nRecently,during RStudio::conf(2022) Shiny for\r\nPython is introduced\r\n\r\n\r\n\r\n",
+    "preview": "posts/2022-08-20-r-shiny-resuorces/Shiny.jfif",
+    "last_modified": "2022-08-21T00:19:15+05:30",
+    "input_file": "r-shiny-resuorces.knit.md"
+  },
+  {
     "path": "posts/2021-09-01-tidy-tuesday-contributions/",
     "title": "Tidy Tuesday Contributions",
     "description": "Contributions for \"R\" Tidy Tuesday Weekly Project",
