@@ -1,7 +1,7 @@
 ---
-title: "R Shiny Resuorces"
+title: "R Shiny Resources"
 description: |
-  Resources for learning  R Shiny
+  Best Resources for learning R Shiny
 preview: Shiny.jfif
 author: Hari Krishna
 date: 2022-08-20
@@ -30,12 +30,12 @@ Shiny related books includes(UI Design,Javascript etc): [**Shiny-Books**](https:
 
 **Conference Videos/Playlists:**
 
-Appsilon Shiny Conference: **[2022-Conf](https://www.youtube.com/playlist?list=PLexAKolMzPcrYjGA1PULfm7-P12qjKmPb)**
+Appsilon Shiny Conference: [**2022-Conf**](https://www.youtube.com/playlist?list=PLexAKolMzPcrYjGA1PULfm7-P12qjKmPb)
 
-Shiny Developer Series: **[By Eric Nantz](https://www.youtube.com/c/ShinyDeveloperSeries)**
+Shiny Developer Series: [**By Eric Nantz**](https://www.youtube.com/c/ShinyDeveloperSeries)
 
-Shiny Dev conf 2016: **[By Joe Cheng](https://www.rstudio.com/resources/shiny-dev-con-2016/)**
+Shiny Dev conf 2016: [**By Joe Cheng**](https://www.rstudio.com/resources/shiny-dev-con-2016/)
 
-RStudio::conf(2022): **[The Past and future of Shiny](https://www.rstudio.com/conference/2022/keynotes/past-future-shiny/)**
+RStudio::conf(2022): [**The Past and future of Shiny**](https://www.rstudio.com/conference/2022/keynotes/past-future-shiny/)
 
 Recently,during RStudio::conf(2022) [**Shiny for Python**](https://shiny.rstudio.com/py/) is introduced
