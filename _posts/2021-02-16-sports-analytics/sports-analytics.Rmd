@@ -58,7 +58,6 @@ All major resources in this blog is covered.If I miss out I will be updating it 
 
     -   **Opta Sport Conference-[link](https://www.youtube.com/user/optasports)**
 
-
 **Basketball:**
 
 There is another sport in which lot of analytics is being done and no surprise.Its Basketball.
@@ -73,7 +72,7 @@ Recently,NBA Team Utah Jazz used Python Dash in players draft for the season 202
 
 -   [**https://in.nba.com/?gr=www**](https://in.nba.com/?gr=www)
 
--   **https://github.com/josedv82/shinyAMS-resources** For R Shiny
+-   [**https://github.com/josedv82/shinyAMS-resources**](https://github.com/josedv82/shinyAMS-resources){.uri} For R Shiny
 
 **Tennis:**
 
@@ -84,5 +83,9 @@ Recently,NBA Team Utah Jazz used Python Dash in players draft for the season 202
 -   [**https://cricsheet.org/downloads/**](https://cricsheet.org/downloads/)
 
 -   [**https://wisden.com/**](https://wisden.com/)
+
+**For R Programmers:**
+
+-   [R Resources/Guide for Sports Analytics](https://docs.google.com/spreadsheets/d/16Xvhl7fCKEs1JTr-VXPZDmctO2gq4TcmuNmAhoHQQs0/edit#gid=507593318 "R Programming")
 
     There is a lot more to come .I'll keep this blog post updated.If you are interested in sports analytics and wanted to work along with me ping me on **Twitter** [link](https://twitter.com/Hakrishna19)
