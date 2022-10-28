@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\nShinyI always use Shiny at work for building dashboards which is\r\nchallenging and exciting.\r\n\r\n\r\nlibrary(shiny)\r\n\r\n\r\n\r\nA curated list of R Shiny Resources to learn from which includes\r\nconferences,tutorials,documentations\r\nShiny Official Site: Shiny-Official Site\r\nIncludes all R Packages which can be used with\r\nShiny: Shiny-Extensions\r\nMastering Shiny by Hadley Wickham: Mastering-Shiny\r\nShiny related books includes(UI Design,Javascript etc): Shiny-Books\r\nConference Videos/Playlists:\r\nAppsilon Shiny Conference: 2022-Conf\r\nShiny Developer Series: By Eric\r\nNantz\r\nShiny Dev conf 2016: By\r\nJoe Cheng\r\nRStudio::conf(2022): The\r\nPast and future of Shiny\r\nRecently,during RStudio::conf(2022) Shiny for\r\nPython is introduced\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-08-20-r-shiny-resuorces/Shiny.jfif",
-    "last_modified": "2022-08-21T00:24:34+05:30",
-    "input_file": "r-shiny-resuorces.knit.md"
+    "last_modified": "2022-10-28T23:07:49+05:30",
+    "input_file": {}
   },
   {
     "path": "posts/2021-09-01-tidy-tuesday-contributions/",
@@ -67,6 +67,6 @@
     "contents": "\r\n\r\nAs a sports enthusiast,I always explore data and stats with respect\r\nto all sports.There are a lot of resources for sports analytics which\r\ntells us the beauty of sports and data.\r\nSports has always been part of my life.\r\nResources for Sports Analytics:\r\nAll major resources in this blog is covered.If I miss out I will be\r\nupdating it later.\r\nFootball:\r\nFbref-One of the top football statistics site in\r\nwhich event data can be downloaded across all the famous leagues. https://fbref.com/en/\r\nUnderStat- https://understat.com/\r\nTransfer Markt- https://www.transfermarkt.co.in/\r\nPySport- All of us use different programming\r\nlanguages for our analysis. PySport is a wonderful site in which we can\r\nfind lot of packages,data,tutorials,documentation for implementing sport\r\nanalytics.\r\nhttps://pysport.org/\r\nThey also have a great community and also on discord.The link to the\r\ndiscord link\r\nStatsBomb-One of the top sites for football\r\nblogs.Analysis is great and they also provide free data.There is a\r\nstatsBomb conference on 17th March 2021 which is a free online event.Do\r\nnot miss that.\r\nOther football blog sites-\r\nhttps://www.fourfourtwo.com/\r\nhttps://fivethirtyeight.com/sports/\r\n\r\nTutorials-\r\nhttps://fcpython.com/\r\nhttp://fcrstats.com/\r\nFriends of Tracking Youtube-link\r\nTableau for Sports-link\r\n\r\nConferences-\r\nhttps://statsbomb.com/conference/\r\nOpta Sport Conference-link\r\n\r\nBasketball:\r\nThere is another sport in which lot of analytics is being done and no\r\nsurprise.Its Basketball.\r\nRecently,NBA Team Utah Jazz used Python Dash in players draft for the\r\nseason 2020-21 article\r\nResources for BasketBall-\r\nhttps://www.basketball-reference.com/\r\nhttps://www.positiveresidual.com/\r\nhttps://in.nba.com/?gr=www\r\nhttps://github.com/josedv82/shinyAMS-resources\r\nFor R Shiny\r\nTennis:\r\nhttp://tennisabstract.com/\r\nCricket:\r\nhttps://cricsheet.org/downloads/\r\nhttps://wisden.com/\r\nFor R Programmers:\r\nR Resources/Guide for Sports Analytics\r\nThere is a lot more to come .I’ll keep this blog post updated.If you\r\nare interested in sports analytics and wanted to work along with me ping\r\nme on Twitter link\r\n\r\n",
     "preview": "posts/2021-02-16-sports-analytics/sport1.jpg",
     "last_modified": "2022-08-20T23:38:28+05:30",
-    "input_file": "sports-analytics.knit.md"
+    "input_file": {}
   }
 ]

@@ -10,7 +10,7 @@ output:
     self_contained: false
 ---
 
-![Shiny](Shiny1.jfif){width="1000"}
+![Shiny](Shiny1.jfif){width="300"}
 
 I always use Shiny at work for building dashboards which is challenging and exciting.
 
