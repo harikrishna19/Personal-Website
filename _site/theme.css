@@ -110,3 +110,10 @@ d-appendix {
   background-color: white;
   border-top: none;
 }
+
+.darkmode d-article,
+.darkmode d-appendix,
+.darkmode body {
+  background-color: blue;
+  color: white;
+}

@@ -13,7 +13,7 @@ links:
 site: distill::distill_website
 theme: theme.css
 output:
- postcards::solana
+ postcards::trestles
 ---
 
 ## Bio
