@@ -21,7 +21,7 @@ navbar:
 collections:
   posts:
     disqus: harikrishna19
-    hidden: true
+    hidden: false
     share: [twitter, linkedin]
     citation: false
 output:

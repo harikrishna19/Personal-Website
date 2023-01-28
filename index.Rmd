@@ -4,8 +4,6 @@ image: "Hari.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/hari19"
-  - label: Twitter
-    url: "https://twitter.com/hari19599"
   - label: GitHub
     url: "https://github.com/harikrishna19"
   - label: Email
@@ -31,7 +29,7 @@ For Better view of the site, Use **Desktop Mode**
 
 - Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis
 
-- Implemented Machine learning modules in the dashboard 
+- Implemented Machine learning modules in the dashboard
 
 
 **Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
