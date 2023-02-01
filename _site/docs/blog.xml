@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Hari Krishna</title>
+    <link>https://www.harikrishna.com/</link>
+    <atom:link href="https://www.harikrishna.com/blog.xml" rel="self" type="application/rss+xml"/>
+    <description>Hari Krishna
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>College Magazine Articles</title>
+      <dc:creator>Hari Krishna</dc:creator>
+      <link>https://www.harikrishna.com/posts/2021-02-16-college-magazine-articles</link>
+      <description>Some of the artices published by me in official college magazine</description>
+      <guid>https://www.harikrishna.com/posts/2021-02-16-college-magazine-articles</guid>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sports Analytics</title>
+      <dc:creator>Hari Krishna</dc:creator>
+      <link>https://www.harikrishna.com/posts/2021-02-16-sports-analytics</link>
+      <description>Resources for Sports Analytics</description>
+      <guid>https://www.harikrishna.com/posts/2021-02-16-sports-analytics</guid>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
