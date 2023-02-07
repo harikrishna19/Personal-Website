@@ -2133,7 +2133,8 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 </style>
-<style type="text/css">/* base variables */
+<style type="text/css">
+/* base variables */
 
 /* Edit the CSS properties in this file to create a custom
    Distill theme. Only edit values in the right column
@@ -2144,9 +2145,10 @@ d-appendix {
 
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300, 300i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro');
+
 
 html {
   /*-- Main font sizes --*/
@@ -2156,38 +2158,74 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #ca225e;
-  --header-color:    #ca225e;                    /* edited */
-  --body-color:      #404040;                    /* edited */
-  --aside-color:     rgba(0, 0, 0, 0.6);
-  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  --title-color:     #8a1950; /*-- Dark magenta --*/
+  --header-color:    #8a1950; /*-- Dark magenta --*/
+  --body-color:      #2b2212; /*-- Dark brown --*/
+  --aside-color:     #2b2212; /*-- Dark brown --*/
+  --fig-cap-color:   #2b2212; /*-- Dark brown --*/
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    "Noto Serif JP", sans-serif; /* edited */
-  --mono-font:       "IBM Plex Mono", monospace;  /* edited */
-  --body-font:       "Lato", sans-serif;          /* edited */
-  --navbar-font:     "Lato", sans-serif;          /* edited */
+  --heading-font:    "Nanum Myeongjo", serif;
+  --mono-font:       "Source Code Pro", monospace;
+  --body-font:       "Nanum Gothic", sans-serif;
+  --navbar-font:     "Nanum Gothic", sans-serif;
 }
 
 /*-- ARTICLE METADATA --*/
 d-byline {
-  --heading-size:    0.9rem;                      /* edited */
-  --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       0.95rem;                     /* edited */
-  --body-color:      rgba(0, 0, 0, 0.8);
+  --heading-size:    0.6rem;
+  --heading-color:   #8a1950; /*-- Dark magenta --*/
+  --body-size:       0.8rem;
+  --body-color:      #2b2212; /*-- Dark brown --*/
+}
+
+/* Postcard main text */
+div#content p {
+color: #2b2212; /*-- Dark brown --*/
+}
+
+/* Postcard list items */
+.list-inline-item {
+color: #2b2212; /*-- Dark brown --*/
+}
+
+/* Postcard headers */
+h1, h2 {
+  color: #8a1950; /*-- Dark magenta --*/
+}
+
+/* Postcard links */
+#content a {
+  color: #8a1950; /*-- Dark magenta --*/
+}
+
+/* mouse over link */
+#content a:hover {
+  color: #8a1950; /*-- Dark magenta --*/
+}
+
+/* selected link */
+#content a:active {
+  color: #8a1950; /*-- Dark magenta --*/
+}
+
+/* visited link */
+#content a:visited {
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
 /*-- ARTICLE TABLE OF CONTENTS --*/
 .d-contents {
   --heading-size:    18px;
+  --heading-color:   #8a1950; /*-- Dark magenta --*/
   --contents-size:   13px;
 }
 
 /*-- ARTICLE APPENDIX --*/
 d-appendix {
   --heading-size:    15px;
-  --heading-color:   rgba(0, 0, 0, 0.65);      
-  --text-size:       0.9rem;                    /* edited */
-  --text-color:      #1a162d;                   /* edited */
+  --heading-color:   #8a1950; /*-- Dark magenta --*/
+  --text-size:       0.8em;
+  --text-color:      #2b2212; /*-- Dark brown --*/
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
@@ -2195,63 +2233,59 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       18px;
-  --text-color:       #1f1f1f;                   /* edited */
+  --text-color:       #FFFFFF; /* White, same color as background */
   --text-size:        15px;
-  --hover-color:      #787878;                   /* edited */
-  --bkgd-color:       #fff;                      /* edited */
+  --hover-color:      #aad06c; /* Light green */
+  --bkgd-color:       #4c6e3e; /* medium green */
 }
 
 .distill-site-footer {
-  --text-color:       #7e7b88;                   /* edited */
+  --text-color:       #FFFFFF; /* White, same color as background */
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #ca225e3d;                 /* edited */
+  --hover-color:      #aad06c; /* Light green */
+  --bkgd-color:       #4c6e3e; /* medium green */
 }
 
 /*-- Additional custom styles --*/
-
+/* Add any additional CSS rules below                      */
+/* Change bullets */
 ul > li::marker {
-  color: #ca225e;
+  font-size: 1.125em;
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
-.distill-site-header { 
-  letter-spacing: 2px;
-  text-transform: uppercase;
+/* Change link appearance */
+d-article a {
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
-h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 2px;
-  font-weight: 500;
+/* Non-postcard links */
+d-article a{
+  border-bottom: 0px;
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
-.distill-site-header .logo img{
-  max-height: 40px; /* Makes logo bigger, default was 20px */
+/* mouse over link */
+d-article a:hover {
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
-.distill-site-header {
-  padding-top: 1rem;
+/* selected link */
+d-article a:active {
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
-d-title h1,
-d-article h2,
-.posts-list .description h2,
-.posts-list > h1 {
-    font-weight: 300;
+/* visited link */
+d-article a:visited {
+  color: #8a1950; /*-- Dark magenta --*/
 }
 
-.posts-list .post-preview .thumbnail img { width: 35%; display: block; }
-
-d-appendix {
-  background-color: white;
-  border-top: none;
+/* Post descriptions */
+d-article p {
+  color: #2b2212; /*-- Dark brown --*/
 }
 
-.darkmode d-article,
-.darkmode d-appendix,
-.darkmode body {
-  background-color: blue;
-  color: white;
-}</style>
+.posts-list .post-preview .thumbnail img { width: 35%; display: inline; }</style>
 <style type="text/css">
 /* base style */
 
