@@ -14,8 +14,6 @@ output:
  postcards::solana
 ---
 
-## Bio
-
 **Hey,**
 
 I'm currently working as a **R/Shiny Developer** at DataZymes.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
