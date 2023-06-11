@@ -6,8 +6,8 @@
   --font-header: "Fira Sans Condensed",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
 
-  --color-background:   #EAE9EA;
-  --color-primary:      #748ba0;
+  --color-background:   white;
+  --color-primary:      black;
   --color-primary-dark: #2F4238;
   --color-secondary:    #4CAF50;
   --color-tertiary:     #a08a74;

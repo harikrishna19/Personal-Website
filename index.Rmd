@@ -2,35 +2,35 @@
 title: "Hari Krishna"
 image: "Hari.jpg"
 links:
-  - label: LinkedIn
+  - label: '<i class="fab fa-linkedin"></i>'
     url: "https://www.linkedin.com/in/hari19"
-  - label: GitHub
+  - label: '<i class="fab fa-github"></i>'
     url: "https://github.com/harikrishna19"
-  - label: Email
+  - label: '<i class="fas fa-envelope"></i>'
     url: "mailto:krishna19599@gmail.com"
 site: distill::distill_website
 theme: theme.css
 output:
- postcards::trestles
+ postcards::solana
 ---
 
 ## Bio
 
-I'm Hari Krishna,currently working as a **R/Shiny Developer** at DataZymes.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
+**Hey,**
+
+I'm currently working as a **R/Shiny Developer** at DataZymes.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
 
 You can check my **Blogs,Projects,CV** in the above menu and to get in touch with me follow my social handles linked
 
 For Better view of the site, Use **Desktop Mode**
 
-
 ## Experience
 
 **DataZymes \|** R/Shiny Developer **\|** February 2022 - Present
 
-- Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis
+-   Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis
 
-- Implemented Machine learning modules in the dashboard
-
+-   Implemented Machine learning modules in the dashboard
 
 **Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
 
@@ -57,6 +57,3 @@ Master's in Data Science \| June 2019-April 2021
 **Loyola Degree & PG College** \| Telangana, India
 
 B.S.C. in Mathematics,Statistics & Computer Science \| June 2016 - April 2019
-
-
-

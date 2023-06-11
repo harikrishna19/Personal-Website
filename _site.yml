@@ -1,14 +1,13 @@
 
 name: "."
 
-title: "Hari Krishna"
-description: |
-  Hari Krishna
+title: "HK"
 output_dir: "_site"
 base_url: https://www.harikrishna.com/
 theme: theme.css
 repository_url: https://github.com/harikrishna19/Personal-Website
 navbar:
+  search: false
   right:
     - text: "Home"
       href: index.html
