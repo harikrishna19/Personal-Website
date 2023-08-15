@@ -7,6 +7,8 @@ author:
   - name: Hari Krishna
     url: {}
 date: 2021-09-01
+categories:
+  - Tidy Tuesday
 output:
   distill::distill_article:
     self_contained: false

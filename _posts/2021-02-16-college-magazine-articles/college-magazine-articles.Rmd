@@ -4,6 +4,8 @@ preview: blog1.jpg
 description: |
   Articles which got published in Official College Magazine
 author: Hari Krishna
+categories:
+  - Sport Blogs
 date: 2021-02-16
 output:
   distill::distill_article:

@@ -23,6 +23,9 @@ collections:
     hidden: false
     share: [twitter, linkedin]
     citation: false
+    categories: true
+  Projects:
+    categories: true
 output:
   distill::distill_article:
 

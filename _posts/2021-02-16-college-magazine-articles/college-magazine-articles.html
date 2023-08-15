@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -55,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -76,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>College Magazine Articles</title>
@@ -110,7 +112,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","preview","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["College Magazine Articles"]},{"type":"character","attributes":{},"value":["blog1.jpg"]},{"type":"character","attributes":{},"value":["Articles which got published in Official College Magazine\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Hari Krishna"]}]}]},{"type":"character","attributes":{},"value":["2021-02-16"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","preview","description","author","categories","date","output"]}},"value":[{"type":"character","attributes":{},"value":["College Magazine Articles"]},{"type":"character","attributes":{},"value":["blog1.jpg"]},{"type":"character","attributes":{},"value":["Articles which got published in Official College Magazine\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Hari Krishna"]}]}]},{"type":"character","attributes":{},"value":["Sport Blogs"]},{"type":"character","attributes":{},"value":["2021-02-16"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1262,7 +1264,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -1433,8 +1438,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="college-magazine-articles_files/header-attrs-2.6.6/header-attrs.js"></script>
-  <script src="college-magazine-articles_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="college-magazine-articles_files/header-attrs-2.14/header-attrs.js"></script>
+  <script src="college-magazine-articles_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="college-magazine-articles_files/popper-2.6.0/popper.min.js"></script>
   <link href="college-magazine-articles_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="college-magazine-articles_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1466,6 +1471,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-title">
 <h1>College Magazine Articles</h1>
 <!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt=tag">Sport Blogs</div>
+</div>
 <!--/radix_placeholder_categories-->
 <p><p>Articles which got published in Official College Magazine</p></p>
 </div>
@@ -1478,13 +1486,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p>As a data science graduate and a sports enthusiast,I always wanted to analyze sports with respect to data and statistics.I got an opportunity to write articles which got published in my college official magazine.(Infobahn)</p>
+<p>As a data science graduate and a sports enthusiast,I always wanted to
+analyze sports with respect to data and statistics. I got an opportunity
+to write articles which got published in my college official
+magazine.(Infobahn)</p>
 <p>1.<strong>Impact of AI in Wimbledon Tennis Championships</strong></p>
-<p>This article focuses imapact of Artificial Intelligence(AI) in the game of tennis.<br />
-The article link - <a href="https://drive.google.com/file/d/1ASDKdPQ0JpJhtKfaHgmqa-YMt1_pVlby/view">link</a></p>
+<p>This article focuses impact of Artificial Intelligence(AI) in the
+game of tennis.<br />
+The article link - <a
+href="https://drive.google.com/file/d/1ASDKdPQ0JpJhtKfaHgmqa-YMt1_pVlby/view">link</a></p>
 <p>2.<strong>Importance of Longest Format(Test Cricket)</strong></p>
-<p>I love watching test cricket because it’s one of the hardest and the best form of the game.This article is mainly focused on test cricket greats and their statistics and importance of 5-day format. Link to the article - <a href="https://drive.google.com/file/d/1rToPBuJVIfCSBXG6xEtkdhbRDS1-TObj/view">link</a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>I love watching test cricket because it’s one of the hardest and the
+best form of the game.This article is mainly focused on test cricket
+greats and their statistics and importance of 5-day format. Link to the
+article - <a
+href="https://drive.google.com/file/d/1rToPBuJVIfCSBXG6xEtkdhbRDS1-TObj/view">link</a></p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

@@ -4,6 +4,8 @@ description: |
   Best Resources for learning R Shiny
 preview: Shiny.jfif
 author: Hari Krishna
+categories:
+- R Shiny
 date: 2022-08-20
 output:
   distill::distill_article:

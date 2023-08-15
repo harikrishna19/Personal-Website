@@ -10,10 +10,12 @@
       }
     ],
     "date": "2023-08-06",
-    "categories": [],
+    "categories": [
+      "Football"
+    ],
     "contents": "\r\n\r\nEvery August there is always a excitement among football fans as the\r\nclub football returns for the new season with a bang across Europe.Teams\r\nwill have to face new challenges ahead of them.\r\nPremier League is one of the toughest competition across top 5\r\nEuropean leagues.From title challenges to local derbies to relegation\r\nbattles it is always a hell of a ride for all the teams\r\nLet’s look at some interesting numbers at 2022/23 season via data\r\nfrom transfer market,football reference etc.\r\nChelsea FC Signings\r\nFrom sacking Thomas Tuchel and new takeover of the club ,Chelsea\r\nseason has been a complete disaster. They have spent the most in the\r\ntransfer market.Let us look at some of their top transfers\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nFigure 1: Chelsea 2022/23 Transfers\r\n\r\n\r\n\r\nTop signings of Chelsea include the likes of Enzo Fernandez,Fofana\r\n,Mudryk.\r\nSome of their signings experienced an absence of numbers appearing on\r\nthe pitch like Aubameyang and Sterling who are experienced in the\r\nPremier league.\r\nTitle Race:Man City-Arsenal\r\n\r\n\r\n\r\n\r\n\r\n\r\nFigure 2: Title Race 2022/23 Transfers\r\n\r\n\r\n\r\nTwo horse title race between Arsenal and City was the major headline\r\nlast season.Arsenal were really in control till game week 29 and then 3\r\nconsecutive draws which proved very costly in hunt for the title where\r\nthey failed to capitalize 2-0 lead in 2 of the matches and also drew\r\nagainst Southampton 3-3 at home. Arsenal went on to win only 3 of their\r\nlast 6 games\r\nCity meanwhile were consistent after game week 24 where they have not\r\nlost a single game until the final match week to BrentFord(only side to\r\nbeat city twice in the 2022/23 season).But from the above graph we can\r\nalso see that from match week (16-22) city lost 3 games and drew 1 but\r\nwere consistent after that till the business end of the tournament which\r\nhelped them to win hatt-rick of PL titles.\r\nErling Haaland in his first season won the golden boot and his\r\nnumbers were phenomenal.\r\n\r\n\r\n\r\n",
     "preview": "posts/2023-08-06-premier-league-2022-23-season-highlights/football.jpg",
-    "last_modified": "2023-08-10T22:42:57+05:30",
+    "last_modified": "2023-08-15T22:03:08+05:30",
     "input_file": {}
   },
   {
@@ -27,10 +29,12 @@
       }
     ],
     "date": "2022-08-20",
-    "categories": [],
+    "categories": [
+      "R Shiny"
+    ],
     "contents": "\r\nShinyI always use Shiny at work for building dashboards which is\r\nchallenging and exciting.\r\n\r\n\r\nlibrary(shiny)\r\n\r\n\r\n\r\nA curated list of R Shiny Resources to learn from which includes\r\nconferences,tutorials,documentations\r\nShiny Official Site: Shiny-Official Site\r\nIncludes all R Packages which can be used with\r\nShiny: Shiny-Extensions\r\nMastering Shiny by Hadley Wickham: Mastering-Shiny\r\nShiny related books includes(UI Design,Javascript etc): Shiny-Books\r\nConference Videos/Playlists:\r\nAppsilon Shiny Conference: 2022-Conf\r\nShiny Developer Series: By Eric\r\nNantz\r\nShiny Dev conf 2016: By\r\nJoe Cheng\r\nRStudio::conf(2022): The\r\nPast and future of Shiny\r\nRecently,during RStudio::conf(2022) Shiny for\r\nPython is introduced\r\n\r\n\r\n\r\n",
     "preview": "posts/2022-08-20-r-shiny-resuorces/Shiny.jfif",
-    "last_modified": "2022-10-28T23:07:49+05:30",
+    "last_modified": "2023-08-15T21:57:43+05:30",
     "input_file": {}
   },
   {
@@ -44,11 +48,13 @@
       }
     ],
     "date": "2021-09-01",
-    "categories": [],
-    "contents": "\r\nTidy Tuesday is a weekly R project where people contribute weekly to showcase their R skills\r\nGithub Repo for Tidy Tuesday: Tidy-Tuesday Link\r\nMy Tidy Tuesday Contributions:\r\nOlympics Shiny App: Week31- 2021-07-27\r\nApp Description & Link: Olympics_App\r\nOutput table where athletes details are displayed based on Country,Sport & Year,\r\nPlot displays the medals won by a particular country,sport and year. Medal count is counted for all sports(team sports included as well).\r\n\r\n\r\n",
+    "categories": [
+      "Tidy Tuesday"
+    ],
+    "contents": "\r\nTidy Tuesday is a weekly R project where people contribute weekly to\r\nshowcase their R skills\r\nGithub Repo for Tidy Tuesday: Tidy-Tuesday Link\r\nMy Tidy Tuesday Contributions:\r\nOlympics Shiny App: Week31- 2021-07-27\r\nApp Description & Link: Olympics_App\r\nOutput table where athletes details are displayed based on\r\nCountry,Sport & Year,\r\nPlot displays the medals won by a particular country,sport and year.\r\nMedal count is counted for all sports(team sports included as well).\r\n\r\n\r\n",
     "preview": "posts/2021-09-01-tidy-tuesday-contributions/TT.png",
-    "last_modified": "2022-05-04T21:41:17+05:30",
-    "input_file": {},
+    "last_modified": "2023-08-15T22:09:30+05:30",
+    "input_file": "tidy-tuesday-contributions.knit.md",
     "preview_width": 225,
     "preview_height": 225
   },
@@ -63,10 +69,12 @@
       }
     ],
     "date": "2021-02-16",
-    "categories": [],
-    "contents": "\r\nAs a data science graduate and a sports enthusiast,I always wanted to analyze sports with respect to data and statistics.I got an opportunity to write articles which got published in my college official magazine.(Infobahn)\r\n1.Impact of AI in Wimbledon Tennis Championships\r\nThis article focuses imapact of Artificial Intelligence(AI) in the game of tennis.\r\nThe article link - link\r\n2.Importance of Longest Format(Test Cricket)\r\nI love watching test cricket because it’s one of the hardest and the best form of the game.This article is mainly focused on test cricket greats and their statistics and importance of 5-day format. Link to the article - link\r\n\r\n\r\n\r\n",
+    "categories": [
+      "Sport Blogs"
+    ],
+    "contents": "\r\nAs a data science graduate and a sports enthusiast,I always wanted to\r\nanalyze sports with respect to data and statistics. I got an opportunity\r\nto write articles which got published in my college official\r\nmagazine.(Infobahn)\r\n1.Impact of AI in Wimbledon Tennis Championships\r\nThis article focuses impact of Artificial Intelligence(AI) in the\r\ngame of tennis.\r\nThe article link - link\r\n2.Importance of Longest Format(Test Cricket)\r\nI love watching test cricket because it’s one of the hardest and the\r\nbest form of the game.This article is mainly focused on test cricket\r\ngreats and their statistics and importance of 5-day format. Link to the\r\narticle - link\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-02-16-college-magazine-articles/blog1.jpg",
-    "last_modified": "2022-05-04T21:41:17+05:30",
+    "last_modified": "2023-08-15T22:03:41+05:30",
     "input_file": {}
   },
   {
@@ -80,10 +88,12 @@
       }
     ],
     "date": "2021-02-16",
-    "categories": [],
-    "contents": "\r\n\r\nAs a sports enthusiast,I always explore data and stats with respect\r\nto all sports.There are a lot of resources for sports analytics which\r\ntells us the beauty of sports and data.\r\nSports has always been part of my life.\r\nResources for Sports Analytics:\r\nAll major resources in this blog is covered.If I miss out I will be\r\nupdating it later.\r\nFootball:\r\nFbref-One of the top football statistics site in\r\nwhich event data can be downloaded across all the famous leagues. https://fbref.com/en/\r\nUnderStat- https://understat.com/\r\nTransfer Markt- https://www.transfermarkt.co.in/\r\nPySport- All of us use different programming\r\nlanguages for our analysis. PySport is a wonderful site in which we can\r\nfind lot of packages,data,tutorials,documentation for implementing sport\r\nanalytics.\r\nhttps://pysport.org/\r\nThey also have a great community and also on discord.The link to the\r\ndiscord link\r\nStatsBomb-One of the top sites for football\r\nblogs.Analysis is great and they also provide free data.There is a\r\nstatsBomb conference on 17th March 2021 which is a free online event.Do\r\nnot miss that.\r\nOther football blog sites-\r\nhttps://www.fourfourtwo.com/\r\nhttps://fivethirtyeight.com/sports/\r\n\r\nTutorials-\r\nhttps://fcpython.com/\r\nhttp://fcrstats.com/\r\nFriends of Tracking Youtube-link\r\nTableau for Sports-link\r\n\r\nConferences-\r\nhttps://statsbomb.com/conference/\r\nOpta Sport Conference-link\r\n\r\nBasketball:\r\nThere is another sport in which lot of analytics is being done and no\r\nsurprise.Its Basketball.\r\nRecently,NBA Team Utah Jazz used Python Dash in players draft for the\r\nseason 2020-21 article\r\nResources for BasketBall-\r\nhttps://www.basketball-reference.com/\r\nhttps://www.positiveresidual.com/\r\nhttps://in.nba.com/?gr=www\r\nhttps://github.com/josedv82/shinyAMS-resources\r\nFor R Shiny\r\nTennis:\r\nhttp://tennisabstract.com/\r\nCricket:\r\nhttps://cricsheet.org/downloads/\r\nhttps://wisden.com/\r\nFor R Programmers:\r\nR Resources/Guide for Sports Analytics\r\nThere is a lot more to come .I’ll keep this blog post updated.If you\r\nare interested in sports analytics and wanted to work along with me ping\r\nme on Twitter link\r\n\r\n",
+    "categories": [
+      "Sport Blogs"
+    ],
+    "contents": "\r\n\r\nAs a sports enthusiast,I always explore data and stats with respect\r\nto all sports.There are a lot of resources for sports analytics which\r\ntells us the beauty of sports and data.\r\nSports has always been part of my life.\r\nResources for Sports Analytics:\r\nAll major resources in this blog is covered.If I miss out I will be\r\nupdating it later.\r\nFootball:\r\nFbref-One of the top football statistics site in\r\nwhich event data can be downloaded across all the famous leagues. https://fbref.com/en/\r\nUnderStat- https://understat.com/\r\nTransfer Markt- https://www.transfermarkt.co.in/\r\nPySport- All of us use different programming\r\nlanguages for our analysis. PySport is a wonderful site in which we can\r\nfind lot of packages,data,tutorials,documentation for implementing sport\r\nanalytics.\r\nhttps://pysport.org/\r\nThey also have a great community and also on discord.The link to the\r\ndiscord link\r\nStatsBomb-One of the top sites for football\r\nblogs.Analysis is great and they also provide free data.There is a\r\nstatsBomb conference on 17th March 2021 which is a free online event.Do\r\nnot miss that.\r\nOther football blog sites-\r\nhttps://www.fourfourtwo.com/\r\nhttps://fivethirtyeight.com/sports/\r\n\r\nTutorials-\r\nhttps://fcpython.com/\r\nhttp://fcrstats.com/\r\nFriends of Tracking Youtube-link\r\nTableau for Sports-link\r\n\r\nConferences-\r\nhttps://statsbomb.com/conference/\r\nOpta Sport Conference-link\r\n\r\nBasketball:\r\nThere is another sport in which lot of analytics is being done and no\r\nsurprise.Its Basketball.\r\nRecently,NBA Team Utah Jazz used Python Dash in players draft for the\r\nseason 2020-21 article\r\nResources for BasketBall-\r\nhttps://www.basketball-reference.com/\r\nhttps://www.positiveresidual.com/\r\nhttps://in.nba.com/?gr=www\r\nhttps://github.com/josedv82/shinyAMS-resources\r\nFor R Shiny\r\nTennis:\r\nhttp://tennisabstract.com/\r\nCricket:\r\nhttps://cricsheet.org/downloads/\r\nhttps://wisden.com/\r\nFor R Programmers:\r\nR Resources/Guide for Sports\r\nAnalytics\r\nThere is a lot more to come .I’ll keep this blog post updated.If you\r\nare interested in sports analytics and wanted to work along with me ping\r\nme on Twitter link\r\n\r\n",
     "preview": "posts/2021-02-16-sports-analytics/sport1.jpg",
-    "last_modified": "2022-08-20T23:38:28+05:30",
+    "last_modified": "2023-08-15T22:03:54+05:30",
     "input_file": {}
   }
 ]

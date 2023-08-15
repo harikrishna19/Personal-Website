@@ -4,6 +4,8 @@ preview: sport1.jpg
 description: |
   Resources for Sports Analytics
 author: Hari Krishna
+categories:
+  - Sport Blogs
 date: 2021-02-16
 output:
   distill::distill_article:

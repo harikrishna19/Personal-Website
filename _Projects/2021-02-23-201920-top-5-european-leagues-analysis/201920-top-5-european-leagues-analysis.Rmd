@@ -4,6 +4,8 @@ preview: footy1.jpg
 description: |
   Analysis on Top 5 European Leagues(PL,Bundesliga,La Liga,Serie A,Ligue 1)
 author: Hari Krishna
+categories:
+  - Football
 date: 2021-02-23
 output:
   distill::distill_article:
