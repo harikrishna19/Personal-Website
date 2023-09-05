@@ -16,11 +16,11 @@ navbar:
     - text: "Projects"
       href: projects.html
     - text: "CV"
-      href: Resume_HK_latest.pdf
+      href: Resume_HK.pdf
 collections:
   posts:
     disqus: harikrishna19
-    hidden: false
+    hidden: true
     share: [twitter, linkedin]
     citation: false
     categories: true

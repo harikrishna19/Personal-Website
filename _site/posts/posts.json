@@ -53,8 +53,8 @@
     ],
     "contents": "\r\nTidy Tuesday is a weekly R project where people contribute weekly to\r\nshowcase their R skills\r\nGithub Repo for Tidy Tuesday: Tidy-Tuesday Link\r\nMy Tidy Tuesday Contributions:\r\nOlympics Shiny App: Week31- 2021-07-27\r\nApp Description & Link: Olympics_App\r\nOutput table where athletes details are displayed based on\r\nCountry,Sport & Year,\r\nPlot displays the medals won by a particular country,sport and year.\r\nMedal count is counted for all sports(team sports included as well).\r\n\r\n\r\n",
     "preview": "posts/2021-09-01-tidy-tuesday-contributions/TT.png",
-    "last_modified": "2023-08-15T22:09:30+05:30",
-    "input_file": "tidy-tuesday-contributions.knit.md",
+    "last_modified": "2023-08-22T22:26:25+05:30",
+    "input_file": {},
     "preview_width": 225,
     "preview_height": 225
   },
