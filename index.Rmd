@@ -26,11 +26,11 @@ For Better view of the site, Use **Desktop Mode**
 
 **DataZymes \|** Associate Consultant **\|** February 2022 - April 2024
 
--   Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis,Campaign Analysis 
+-   Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis,Campaign Analysis
 
 -   Implemented Machine learning modules in the dashboard
 
--   Developing efficient backend code for various dashboards with optimized code structure and performance.
+-   Developing efficient backend code using Python for various dashboards with optimized code structure and performance.
 
 **Prodian Infotech \|** Data Analyst **\|** May 2021 - January 2022
 
