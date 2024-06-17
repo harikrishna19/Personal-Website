@@ -15,7 +15,7 @@
     ],
     "contents": "\r\nOverview:\r\nTop 5 European Leagues majorly involve leagues played in\r\nItaly,England,France,Germany and Spain.\r\nAn interactive dashboard is being implemented to display all the\r\nrelated statistics for respective players and leagues.This project is\r\nmainly contains lot of visualizations and we interpret results from\r\nit.\r\nData:\r\nFIFA Ratings data from https://sofifa.com/ is\r\nused for exploratory data analysis to display radar charts,bar\r\ncharts.\r\nFBREF-https://fbref.com/en/\r\nis used for ranking of players based on certain criteria and\r\nattributes.\r\nFor Transfer data is scraped from https://www.transfermarkt.co.in/\r\nDescription:\r\nHome Page\r\nLeague Stats\r\nPlayer Comparison\r\nLoan Analysis\r\nRanking\r\nLeague Stats- Visualizations of world map,bar charts\r\nand certain key metric calculations are displayed\r\nPlayer Comparison- Radar Charts are displayed based\r\non official FIFA card rating\r\nLoan Analysis- Profit and Loss Ratio of teams with\r\nrespect to Transfer Markt\r\nRanking- A mathematical approach is implemented for\r\nranking\r\nAHP(Analytic Hierarchy Process) is used for calculating weights\r\nfor the attributes\r\nTechnique for Order of Preference by Similarity to Ideal Solution\r\n(TOPSIS) is used to calculate ranks\r\nProject Details can be found via this link\r\nProject Link-Only Visualizations Included- link\r\n\r\n\r\n\r\n",
     "preview": "Projects/2021-02-23-201920-top-5-european-leagues-analysis/footy1.jpg",
-    "last_modified": "2024-06-08T21:44:09-07:00",
+    "last_modified": "2024-06-09T10:14:09+05:30",
     "input_file": {}
   },
   {
@@ -34,7 +34,7 @@
     ],
     "contents": "\r\nWhat it is\r\nKabaddi Player Comparison is an application in which all the players\r\ncan be compared based on several metrics with respect to different\r\ntournaments and teams.\r\nIn this project, we majorly analyze pro kabaddi league and derive\r\ndifferent player metrics\r\nFor Raiders Raid Points,Effective Points, Bonus Points\r\netc is displayed\r\nFor Defenders Tackle Points,Number of Tackles are is\r\ndisplayed\r\nTools Used-R Shiny, R, MySQL\r\nLink\r\nfor the APP\r\n\r\n\r\n\r\n",
     "preview": "Projects/2021-02-22-kabaddi-player-comparison/Image_Kabaddi.jpg",
-    "last_modified": "2024-06-08T21:44:09-07:00",
+    "last_modified": "2024-06-09T10:14:09+05:30",
     "input_file": {}
   }
 ]
