@@ -16,7 +16,7 @@ output:
 
 **Hey,**
 
-I'm currently working as a Senior Data visulaization specialist at Bristol Myers Squibb.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
+I'm currently working as a Senior Data visualization specialist at **Bristol Myers Squibb**.Describe myself as a Sport Enthusiast, passionate towards statistics & number crunching.Active member & contributor in open source community.My Blogs & Projects are majorly related to **Sports**
 
 You can check my **Blogs,Projects,CV** in the above menu and to get in touch with me follow my social handles linked
 
