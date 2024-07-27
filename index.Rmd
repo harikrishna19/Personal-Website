@@ -31,6 +31,9 @@ For Better view of the site, Use **Desktop Mode**
 
 - Attended PHUSE SDE Hyderabad 2024-AI/ML/NLP in Clinical Trials – Challenges, Best Practices and the Road Ahead
 
+- Attended Data Visualization in R on Clinical trials data by IASCT in Hyderabad
+
+
 **DataZymes \|** Associate Consultant **\|** February 2022 - April 2024
 
 -   Worked on R Shiny Dashboard Development for various methodologies which include Marketing Mix Modelling,Test & Control Analysis,Campaign Analysis
