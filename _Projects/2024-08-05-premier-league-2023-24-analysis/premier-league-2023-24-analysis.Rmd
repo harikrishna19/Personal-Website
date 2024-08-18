@@ -1,0 +1,63 @@
+---
+title: "Premier League 2023-24 Analysis"
+description: Match/Season Level Analysis of 2023-24 Premier League Season
+author: Hari Krishna
+date: 2024-08-18
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Premier-League-Summary-Analysis-2023-24
+
+The idea of the project to display interactive visualizations which includes match-level and season level analysis:
+
+1.  **Match Summaries**
+
+2.  **Match report**
+
+3.  **Season Level analysis**
+
+Visualizations are shown at season level and at team level.
+
+**1.Match Summaries**
+
+Every event in a match plays a crucial role in football
+
+From goals to assists to cards etc
+
+Below graphs is represented where in the user selects a team and a corresponding match,
+
+Each event in a match is represented as dot in the graph and when hover over a point the event details are displayed
+
+![](images/newplot (2).png)
+
+This following match shows event level analysis for particular match-Chelsea vs Manchester City in the above example
+
+**2.Match Report**
+
+Match report table displays the Stats like(Goals Scored,Team Name,Xg,Cards etc.)
+
+![](images/Capture-123.PNG)
+
+3.Season Level analysis
+
+In the above season level analysis for the season 2023-24 overall data is displayed with all the numbers like
+
+-   Goals Scored,Goals Against
+
+-   Win,Loss,Draw
+
+-   Points
+
+-   Top Goal Scorer of the team
+
+    ![](images/Capture-4321.PNG){width="864"}
+
+**Additional Form column represents the team form overall for 38 week season**
+
+![](images/Capture-5321.PNG)
+
+The top Blue bar represents team won that game and the lower blue point represents the team has drawn the game and red indicates the team has lost the game
+
+**Project Link(Quarto dashboard)-In Progress**

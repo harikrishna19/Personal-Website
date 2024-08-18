@@ -1,5 +1,24 @@
 [
   {
+    "path": "Projects/2024-08-05-premier-league-2023-24-analysis/",
+    "title": "Premier League 2023-24 Analysis",
+    "description": "Match/Season Level Analysis of 2023-24 Premier League Season",
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2024-08-18",
+    "categories": [],
+    "contents": "\r\nPremier-League-Summary-Analysis-2023-24\r\nThe idea of the project to display interactive visualizations which includes match-level and season level analysis:\r\nMatch Summaries\r\nMatch report\r\nSeason Level analysis\r\nVisualizations are shown at season level and at team level.\r\n1.Match Summaries\r\nEvery event in a match plays a crucial role in football\r\nFrom goals to assists to cards etc\r\nBelow graphs is represented where in the user selects a team and a corresponding match,\r\nEach event in a match is represented as dot in the graph and when hover over a point the event details are displayed\r\n\r\nThis following match shows event level analysis for particular match-Chelsea vs Manchester City in the above example\r\n2.Match Report\r\nMatch report table displays the Stats like(Goals Scored,Team Name,Xg,Cards etc.)\r\n\r\n3.Season Level analysis\r\nIn the above season level analysis for the season 2023-24 overall data is displayed with all the numbers like\r\nGoals Scored,Goals Against\r\nWin,Loss,Draw\r\nPoints\r\nTop Goal Scorer of the team\r\n\r\nAdditional Form column represents the team form overall for 38 week season\r\n\r\nThe top Blue bar represents team won that game and the lower blue point represents the team has drawn the game and red indicates the team has lost the game\r\nProject Link(Quarto dashboard)-In Progress\r\n\r\n\r\n\r\n",
+    "preview": "Projects/2024-08-05-premier-league-2023-24-analysis/images/Capture-4321.PNG",
+    "last_modified": "2024-08-18T23:00:10+05:30",
+    "input_file": "premier-league-2023-24-analysis.knit.md",
+    "preview_width": 1864,
+    "preview_height": 747
+  },
+  {
     "path": "Projects/2021-02-23-201920-top-5-european-leagues-analysis/",
     "title": "2019/20 Top 5 European Leagues Analysis",
     "description": "Analysis on Top 5 European Leagues(PL,Bundesliga,La Liga,Serie A,Ligue 1)",
