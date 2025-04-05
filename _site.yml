@@ -16,7 +16,7 @@ navbar:
     - text: "Projects"
       href: projects.html
     - text: "CV"
-      href: Resume_HK.pdf
+      href: HK.pdf
 collections:
   posts:
     disqus: harikrishna19
