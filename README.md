@@ -1,3 +1,3 @@
 ## Personal-Website:
 
-Website Link: [Link](https://hari-krishna.netlify.app/ "Link")
+Website Link: [Link](https://hari-krish.dev/ "Link")
