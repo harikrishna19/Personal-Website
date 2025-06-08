@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2025-05-20-premier-league-summary-202425-season/",
+    "title": "Premier League Season 2024/25 Summary",
+    "description": {},
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2025-06-08",
+    "categories": [
+      "Sport Blogs"
+    ],
+    "contents": "\n🎥 Premier League 2024/25 – Animated Season Recap with gganimate\nI’ve always been fascinated by how broadcasters present match previews — animated league tables, tactical formations, dramatic progressions across matchweeks. So I decided to bring that experience into R using gganimate.\n📊 Presenting the team positions across all 38 matchweeks, complete with key highlights and movements:\n🏆 Arne Slot wins the Premier League title in his first season as Liverpool manager — a historic start.\n⚔️ Arsenal finish 2nd for the third consecutive season. Consistently close, but not quite there yet.\n🔄 Tottenham pull off the unthinkable — finishing 17th in the league but securing Champions League football by winning the Europa League!\n📉 All three promoted sides — Southampton, Leicester, and Ipswich — head back down to the Championship.\n🔝 Liverpool, Chelsea, Arsenal, Newcastle, Man City, and Tottenham will represent the PL in the Champions League next season.\n🔁 And while the dust settles, the transfer market is already buzzing:\nLiam Delap to Chelsea\nTop talents heading to Liverpool\n⚽ August can’t come soon enough. PL 2025/26 is going to be 🔥.\nData meets drama — just how we like it.\n📈 Built in R using ggplot2 + gganimate + magick .\nPlot using gganimatePlot using gganimatePL Match week-final day\n\nLet’s also visualize how Tottenham and Manchester United struggles in the PL this season\nBoth Tottenham and Manchester United have endured disappointing seasons in the Premier League, racking up a combined total of 40 losses.\nTottenham recorded 22 defeats—their worst-ever Premier League campaign—but still managed to qualify for the Champions League after edging Manchester United 1-0 in the Europa League final in Bilbao.\nUnited, on the other hand, will miss out on European football altogether next season.\nHad the relegated teams—Ipswich, Southampton, and Leicester—been just a bit stronger and picked up more points, we might have seen Spurs and United dragged into a relegation scrap.\nWith Ange Postecoglou sacked as Spurs manager, questions loom over whether Tottenham can cope with the pressure of Champions League football. Meanwhile, all eyes will be on whether Manchester United can return to their best under new manager Rúben Amorim.\nOne thing’s for sure: next season is going to be fascinating. Let’s wait and watch.\n\n\n\n\n",
+    "preview": "posts/2025-05-20-premier-league-summary-202425-season/final_week_table.png",
+    "last_modified": "2025-06-08T11:23:14+05:30",
+    "input_file": "premier-league-summary-202425-season.knit.md",
+    "preview_width": 2566,
+    "preview_height": 934
+  },
+  {
     "path": "posts/2025-04-02-liverpool-pl-season-summary-202425-season/",
     "title": "Liverpool Premier League Season 2024/25 Summary Stats",
     "description": {},
