@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2025-09-02-tottenham-squad-avalilability-analysis/",
+    "title": "Tottenham Squad Avalilability Analysis",
+    "description": "Overview of players who have started/benched in Tottenham entire PL season for 2024/25",
+    "author": [
+      {
+        "name": "Hari Krishna",
+        "url": {}
+      }
+    ],
+    "date": "2025-09-07",
+    "categories": [
+      "Football"
+    ],
+    "contents": "\n\nTottenham Hotspur 2024/25: A Season of Contrasts\n\nTottenham endured a forgettable Premier League campaign in 2024/25, finishing 17th—just above the relegation zone.\nSo, what exactly went wrong?\nInjuries at the wrong time – Key players were sidelined at different stages, disrupting rhythm and consistency.\nFragile defense – The first-choice centre-back pairing of Micky van de Ven and Cristian Romero managed to play together in only around half of the games.\nLack of squad depth – Beyond the starting XI, Spurs lacked quality reinforcements.\nFew consistent performers – Only Pedro Porro and Dejan Kulusevski featured in more than 70% of league matches (27+ starts across 38 games).\nIn stark contrast, clubs like Liverpool, Arsenal, and Manchester City have built their success on continuity—keeping their core squads intact and their key players fit across the season.\nThe Data Visualization\nLeft chart: Each dot represents whether a Tottenham player started or was benched in a particular matchweek (1–38). It highlights the instability and rotation forced by injuries.\nRight chart: Spurs’ league position across the season, ultimately ending in 17th place.\nYet, amid the domestic struggles came a silver lining. Tottenham lifted the Europa League trophy—their first major silverware in 17 years—securing automatic qualification for the 2025/26 Champions League.\nNow, under Thomas Frank, Spurs face a fascinating challenge: Can they rebuild consistency in the league while competing on Europe’s biggest stage?\n\n\n\n",
+    "preview": "posts/2025-09-02-tottenham-squad-avalilability-analysis/football.jpg",
+    "last_modified": "2025-09-07T15:48:44+05:30",
+    "input_file": "tottenham-squad-avalilability-analysis.knit.md"
+  },
+  {
     "path": "posts/2025-05-20-premier-league-summary-202425-season/",
     "title": "Premier League Season 2024/25 Summary",
     "description": {},
