@@ -3,6 +3,8 @@ title: "Premier League 2023-24 Analysis"
 description: Match/Season Level Analysis of 2023-24 Premier League Season
 author: Hari Krishna
 date: 2024-08-18
+categories:
+  - Football
 output:
   distill::distill_article:
     self_contained: false
