@@ -4,7 +4,7 @@ preview: final_infographic.png
 description: 
 author: Hari Krishna
 categories:
-  - Sport Blogs
+  - Football
 date: 02-04-2025
 output:
   distill::distill_article:

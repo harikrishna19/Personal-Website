@@ -10,10 +10,12 @@
       }
     ],
     "date": "2024-08-18",
-    "categories": [],
+    "categories": [
+      "Football"
+    ],
     "contents": "\nPremier-League-Summary-Analysis-2023-24\nThe idea of the project to display interactive visualizations which includes match-level and season level analysis:\nMatch Summaries\nMatch report\nSeason Level analysis\nVisualizations are shown at season level and at team level.\n1.Match Summaries\nEvery event in a match plays a crucial role in football\nFrom goals to assists to cards etc\nBelow graphs is represented where in the user selects a team and a corresponding match,\nEach event in a match is represented as dot in the graph and when hover over a point the event details are displayed\n\nThis following match shows event level analysis for particular match-Chelsea vs Manchester City in the above example\n2.Match Report\nMatch report table displays the Stats like(Goals Scored,Team Name,Xg,Cards etc.)\n\n3.Season Level analysis\nIn the above season level analysis for the season 2023-24 overall data is displayed with all the numbers like\nGoals Scored,Goals Against\nWin,Loss,Draw\nPoints\nTop Goal Scorer of the team\n\nAdditional Form column represents the team form overall for 38 week season\n\nThe top Blue bar represents team won that game and the lower blue point represents the team has drawn the game and red indicates the team has lost the game\nProject Link(Quarto dashboard)-In Progress\n\n\n\n",
     "preview": "Projects/2024-08-05-premier-league-2023-24-analysis/images/Capture-4321.PNG",
-    "last_modified": "2025-03-22T22:42:05+05:30",
+    "last_modified": "2025-09-07T22:34:38+05:30",
     "input_file": {},
     "preview_width": 1864,
     "preview_height": 747
@@ -34,7 +36,7 @@
     ],
     "contents": "\nOverview:\nTop 5 European Leagues majorly involve leagues played in\nItaly,England,France,Germany and Spain.\nAn interactive dashboard is being implemented to display all the\nrelated statistics for respective players and leagues.This project is\nmainly contains lot of visualizations and we interpret results from\nit.\nData:\nFIFA Ratings data from https://sofifa.com/ is\nused for exploratory data analysis to display radar charts,bar\ncharts.\nFBREF-https://fbref.com/en/\nis used for ranking of players based on certain criteria and\nattributes.\nFor Transfer data is scraped from https://www.transfermarkt.co.in/\nDescription:\nHome Page\nLeague Stats\nPlayer Comparison\nLoan Analysis\nRanking\nLeague Stats- Visualizations of world map,bar charts\nand certain key metric calculations are displayed\nPlayer Comparison- Radar Charts are displayed based\non official FIFA card rating\nLoan Analysis- Profit and Loss Ratio of teams with\nrespect to Transfer Markt\nRanking- A mathematical approach is implemented for\nranking\nAHP(Analytic Hierarchy Process) is used for calculating weights\nfor the attributes\nTechnique for Order of Preference by Similarity to Ideal Solution\n(TOPSIS) is used to calculate ranks\nProject Details can be found via this link\nProject Link-Only Visualizations Included- link\n\n\n\n",
     "preview": "Projects/2021-02-23-201920-top-5-european-leagues-analysis/footy1.jpg",
-    "last_modified": "2025-03-22T22:42:05+05:30",
+    "last_modified": "2025-09-02T17:22:31+05:30",
     "input_file": {}
   },
   {
@@ -53,7 +55,7 @@
     ],
     "contents": "\nWhat it is\nKabaddi Player Comparison is an application in which all the players\ncan be compared based on several metrics with respect to different\ntournaments and teams.\nIn this project, we majorly analyze pro kabaddi league and derive\ndifferent player metrics\nFor Raiders Raid Points,Effective Points, Bonus Points\netc is displayed\nFor Defenders Tackle Points,Number of Tackles are is\ndisplayed\nTools Used-R Shiny, R, MySQL\nLink\nfor the APP\n\n\n\n",
     "preview": "Projects/2021-02-22-kabaddi-player-comparison/Image_Kabaddi.jpg",
-    "last_modified": "2025-03-22T22:42:05+05:30",
+    "last_modified": "2025-09-02T17:22:31+05:30",
     "input_file": {}
   }
 ]

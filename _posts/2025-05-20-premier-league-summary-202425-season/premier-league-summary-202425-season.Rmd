@@ -4,7 +4,7 @@ preview: final_week_table.png
 description: 
 author: Hari Krishna
 categories:
-  - Sport Blogs
+  - Football
 date: 06-08-2025
 output:
   distill::distill_article:
