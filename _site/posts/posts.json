@@ -15,7 +15,7 @@
     ],
     "contents": "\nThis project is my submission to the Posit Table Contest. It presents an data exploration of all incoming and outgoing player transfers in the English Premier League (2025/26 season). The goal is to highlight spending trends, signings(incoming & Outgoing), and club-level comparisons, all in a clean and format.\n✨ Features\n📊 Interactive Reactable Table displaying transfers club by club\n🔎 Sorting, filtering, and searching for quick exploration\n💰 Fee normalization: values like 12m, 250k, Free, Loan, and End of loan are standardized\n🟥🟩 Conditional formatting to highlight overspending vs. value signings\n📈 Custom calculated metrics such as:\nNet spend\nOverpaid % (Fee vs. Market Value)\nPackages used for tables: reactable,reactablefmtr\nPublished using rPubs\nClick to view the project\nCode repository\nhttps://github.com/harikrishna19/Posit-Table-Contest-2025\n\n\n\n\n",
     "preview": "posts/2025-11-06-2025-posit-table-contest-submission/posit.png",
-    "last_modified": "2025-11-06T19:29:29+05:30",
+    "last_modified": "2025-11-06T19:34:52+05:30",
     "input_file": "2025-posit-table-contest-submission.knit.md",
     "preview_width": 310,
     "preview_height": 163
