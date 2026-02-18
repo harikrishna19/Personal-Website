@@ -1,5 +1,5 @@
 ---
-title: "Premier League-January tansfer Analysis 2025/26 season"
+title: "Premier League-January transfer Analysis 2025/26 season"
 author: Hari Krishna
 date: 2026-02-16
 preview: pl_logo.png

@@ -1,253 +1,247 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ================================
+   GOOGLE FONTS
+================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500;600;700&display=swap');
+
+/* ================================
+   ROOT VARIABLES
+================================ */
 
 :root {
-  --font-body:   "Roboto",-apple-system,BlinkMacSystemFont,roboto,segoe ui,Helvetica,Arial,sans-serif;
-  --font-header: "Fira Sans Condensed",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  --font-mono:   SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;
 
-  --color-background:   white;
-  --color-primary:      black;
-  --color-primary-dark: #2F4238;
-  --color-secondary:    blue;
-  --color-tertiary:     #a08a74;
-  --color-text:         #172a3a;
-  --color-white:        #FFFFFF;
+  /* Typography */
+  --font-body: "Roboto", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-header: "Fira Sans Condensed", sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Colors */
+  --color-background: #f8f9fb;
+  --color-primary: #111111;
+  --color-secondary: #1f77b4;  /* Data blue */
+  --color-primary-dark: #1a1a1a;
+  --color-text: #1f2933;
+  --color-muted: #6b7280;
+  --color-white: #ffffff;
 }
 
-/* base variables */
-
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
+/* ================================
+   GLOBAL SETTINGS
+================================ */
 
 html {
-  /*-- Main font sizes --*/
-  --title-size:      50px;
-  --body-size:       1.06rem;
-  --code-size:       14px;
-  --aside-size:      12px;
-  --fig-cap-size:    13px;
-  /*-- Main font colors --*/
-  --title-color:     var(--color-text);
-  --header-color:    rgba(0, 0, 0, 0.8);
-  --body-color:      rgba(0, 0, 0, 0.8);
-  --aside-color:     rgba(0, 0, 0, 0.6);
-  --fig-cap-color:   rgba(0, 0, 0, 0.6);
-  /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    var(--font-header);
-  --mono-font:       var(--font-mono);
-  --body-font:       var(--font-body);
-  --navbar-font:     var(--font-header);
+  --title-size: 56px;
+  --body-size: 1.08rem;
+  --code-size: 14px;
+  --aside-size: 13px;
+  --fig-cap-size: 13px;
+
+  --title-color: var(--color-text);
+  --header-color: var(--color-text);
+  --body-color: var(--color-text);
+  --aside-color: var(--color-muted);
+  --fig-cap-color: var(--color-muted);
+
+  --heading-font: var(--font-header);
+  --mono-font: var(--font-mono);
+  --body-font: var(--font-body);
+  --navbar-font: var(--font-header);
 }
-
-/*-- ARTICLE METADATA --*/
-d-byline {
-  --heading-size:    0.6rem;
-  --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       0.8rem;
-  --body-color:      rgba(0, 0, 0, 0.8);
-}
-
-/*-- ARTICLE TABLE OF CONTENTS --*/
-.d-contents {
-  --heading-size:    18px;
-  --contents-size:   13px;
-}
-
-/*-- ARTICLE APPENDIX --*/
-d-appendix {
-  --heading-size:    15px;
-  --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       0.8em;
-  --text-color:      rgba(0, 0, 0, 0.5);
-}
-
-/*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
-
-.distill-site-header {
-  --title-size:       18px;
-  --text-color:       var(--color-primary);
-  --text-size:        18px;
-  --hover-color:      var(--color-secondary);
-  --bkgd-color:       var(--color-background);
-  font-weight:        500;
-}
-
-.distill-site-footer {
-  --text-color:       #ededeb;
-  --text-size:        15px;
-  --hover-color:      var(--color-white);
-  --bkgd-color:       var(--color-primary);
-}
-
-/*-- Additional custom styles --*/
-/* Add any additional CSS rules below */
 
 html body {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
 }
 
-/* Links */
+/* ================================
+   TYPOGRAPHY
+================================ */
+
+h1, h2, h3 {
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+b, strong {
+  color: var(--color-primary);
+}
+
+/* ================================
+   ARTICLE CARD STYLE
+================================ */
+
+d-article {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+/* ================================
+   LINKS
+================================ */
 
 a {
-    color: var(--color-primary);
-    border-bottom: 0px;
-    text-decoration: none;
+  color: var(--color-secondary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
 }
 
-d-article a {
-    color: var(--color-primary);
-    border-bottom: 0px;
-    text-decoration: none;
+a:hover {
+  border-bottom: 1px solid var(--color-secondary);
 }
 
-a:hover, a:focus {
-    color: var(--color-secondary);
-    font-weight: 500;
-    border-color: var(--color-secondary);
+/* ================================
+   NAVBAR
+================================ */
+
+.distill-site-header {
+  --title-size: 18px;
+  --text-size: 16px;
+  --text-color: var(--color-primary);
+  --hover-color: var(--color-secondary);
+  --bkgd-color: white;
+
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-d-article a:hover, a:focus {
-    color: var(--color-secondary);
-    font-weight: 500;
-    border-color: var(--color-secondary);
+/* ================================
+   FOOTER
+================================ */
+
+.distill-site-footer {
+  --text-color: #e5e7eb;
+  --text-size: 14px;
+  --hover-color: white;
+  --bkgd-color: var(--color-primary-dark);
 }
 
-/* Buttons on home page */
+/* ================================
+   BUTTONS
+================================ */
 
 .btn-outline-dark {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border: 0px;
+  background-color: var(--color-secondary);
+  color: white;
+  border-radius: 8px;
+  padding: 6px 14px;
+  border: none;
+  transition: all 0.2s ease;
 }
 
 .btn-outline-dark:hover {
-    background-color: var(--color-secondary);
+  transform: translateY(-2px);
 }
 
-/* Menu */
-
-.nav-dropdown-content a {
-    color: var(--color-primary);
-}
-
-.nav-dropdown-content a:hover {
-    background-color: var(--color-background);
-}
-
-/* Link buttons */
+/* ================================
+   ICON LINKS
+================================ */
 
 .icon-link {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    padding: 3px 5px 3px 5px;
-    margin: 0 2px 0 2px;
-    border-radius: 5px; /* Rounded edges */
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 4px 8px;
+  margin: 0 3px;
+  border-radius: 6px;
+  font-size: 13px;
 }
 
 .icon-link:hover {
-    background-color: var(--color-secondary);
-    color: var(--color-white);
+  opacity: 0.85;
 }
 
-.icon-link-details {
-    background-color: var(--color-primary-dark);
-    color: var(--color-white);
-    padding: 3px 5px 3px 5px;
-    margin: 0 2px 0 2px;
-    border-radius: 5px; /* Rounded edges */
-}
-
-.icon-link-details:hover {
-    background-color: var(--color-secondary);
-    color: var(--color-white);
-}
-
-/* For floating images - see lab page, for example */
-
-.float-left img {
-    float:left;
-    padding: 5px 10px 5px 0px;
-}
-
-.float-right img {
-    float:right;
-    padding: 5px 0px 5px 10px;
-}
-
-/* Footer */
-
-.distill-site-footer p {
-    margin-bottom: 0em;
-}
-
-/* Pubs page */
-
-.pub {
-    margin: 0 0 0 0;
-}
-
-/* For dropping a shadow behind images */
-.shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-}
+/* ================================
+   IMAGES & PLOTS
+================================ */
 
 d-article img {
-  margin-bottom: 10px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
 }
 
-/* Smaller spacing in bullet lists */
+/* ================================
+   CODE BLOCKS
+================================ */
 
-d-article li {
-  margin-bottom: 0;
+/* Output */
+
+d-article pre {
+  border-radius: 12px;
+  font-size: 13px;
+  color: #e6edf3;
+  background-color: #1e1e1e;
+  padding: 16px;
+  overflow-x: auto;
 }
 
-/* Code chunks */
+/* Source code */
 
-/* Chunk output */
-
-d-article pre { 
-  overflow: auto !important;
-  border-radius: 5px; /* Rounded edges */
-  font-size: 12px;
-  color: #fff;
-  background-color: #696969;
-  padding: 5px 5px 5px 18px;
-}
-
-/* Chunk code */
-
-d-article div.sourceCode pre { 
-  overflow: auto !important;
-  border-radius: 5px; /* Rounded edges */
-  background-color: #fff;
+d-article div.sourceCode pre {
+  background-color: #f4f6f8;
   color: black;
-  padding: 5px 5px 5px 18px;
+  border-radius: 12px;
+  padding: 16px;
 }
 
 d-article div.sourceCode {
   background-color: transparent;
 }
 
-.button {
-  background-color: #748ba0; /* Green */
+/* ================================
+   TABLE OF CONTENTS
+================================ */
+
+.d-contents {
+  --heading-size: 18px;
+  --contents-size: 14px;
 }
 
-b, strong {
-   color: black;
-   }
+/* ================================
+   BYLINE
+================================ */
 
-a:link {
-  color: black;
-  text-decoration: underline;
+d-byline {
+  --heading-size: 0.7rem;
+  --heading-color: var(--color-muted);
+  --body-size: 0.85rem;
+  --body-color: var(--color-muted);
 }
-.posts-list .post-preview .thumbnail img { width: 30%; display: inline; }
+
+/* ================================
+   LIST SPACING
+================================ */
+
+d-article li {
+  margin-bottom: 4px;
+}
+
+/* ================================
+   FLOAT IMAGES
+================================ */
+
+.float-left img {
+  float: left;
+  padding: 5px 15px 5px 0;
+}
+
+.float-right img {
+  float: right;
+  padding: 5px 0 5px 15px;
+}
+
+/* ================================
+   POSTS THUMBNAIL
+================================ */
+
+.posts-list .post-preview .thumbnail img {
+  width: 35%;
+  display: inline;
+  border-radius: 10px;
+}

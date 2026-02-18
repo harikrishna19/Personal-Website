@@ -1,7 +1,7 @@
 [
   {
     "path": "posts/2026-02-16-premier-league-january-transfer-analysis-202526/",
-    "title": "Premier League-January tansfer Analysis 2025/26 season",
+    "title": "Premier League-January transfer Analysis 2025/26 season",
     "description": {},
     "author": [
       {
@@ -15,7 +15,7 @@
     ],
     "contents": "\nThere’s always a special kind of excitement when January arrives in European football. The winter transfer window swings open, and suddenly the game isn’t just played on the pitch — it’s played in boardrooms, scouting departments, and negotiation tables across the continent.\nNowhere is that drama more captivating than in the Premier League. Widely regarded as the most competitive league in the world, January becomes a strategic battlefield — a time for bold reinforcements, smart adjustments, and sometimes desperate gambles.\nThe stacked radial bar chart below captures this mid-season story in numbers, visualizing how clubs invested during the January transfer window. Beyond the headlines and rumors, it reveals the scale, intent, and ambition behind each club’s spending decisions.\n\n\n\n\n",
     "preview": "posts/2026-02-16-premier-league-january-transfer-analysis-202526/pl_logo.png",
-    "last_modified": "2026-02-16T21:33:59+05:30",
+    "last_modified": "2026-02-18T21:43:24+05:30",
     "input_file": "premier-league-january-transfer-analysis-202526.knit.md",
     "preview_width": 177,
     "preview_height": 224
@@ -36,8 +36,8 @@
     ],
     "contents": "\n⚽ Promoted Teams in the Premier League 2025/26: Survival Challenge! 🏟️ As the festive season unfolds, newly promoted teams are showing mixed fortunes. Historically, they’ve struggled—last two seasons, all three went straight back down ⬇️ to the Championship.\nThis season(Only 16 Match weeks Played):\nSunderland – 26 pts ⚡\nLeeds – 16 pts 🔹\nBurnley – 10 pts 🔸\nEvery point matters! Can any of these sides ⚽ defy the odds and stay up, or will history repeat itself? 🔥\n\n\n\n\n",
     "preview": "posts/2026-01-11-comparison-of-promted-teams-across-premier-league-seasons/final_viz.png",
-    "last_modified": "2026-01-11T11:37:50+05:30",
-    "input_file": "comparison-of-promted-teams-across-premier-league-seasons.knit.md",
+    "last_modified": "2026-02-18T21:41:44+05:30",
+    "input_file": {},
     "preview_width": 934,
     "preview_height": 943
   },
@@ -57,8 +57,8 @@
     ],
     "contents": "\nThis project is my submission to the Posit Table Contest. It presents an data exploration of all incoming and outgoing player transfers in the English Premier League (2025/26 season). The goal is to highlight spending trends, signings(incoming & Outgoing), and club-level comparisons, all in a clean and format.\n✨ Features\n📊 Interactive Reactable Table displaying transfers club by club\n🔎 Sorting, filtering, and searching for quick exploration\n💰 Fee normalization: values like 12m, 250k, Free, Loan, and End of loan are standardized\n🟥🟩 Conditional formatting to highlight overspending vs. value signings\n📈 Custom calculated metrics such as:\nNet spend\nOverpaid % (Fee vs. Market Value)\nPackages used for tables: reactable,reactablefmtr\nPublished using rPubs\nClick to view the project\nCode repository\nhttps://github.com/harikrishna19/Posit-Table-Contest-2025\n\n\n\n\n",
     "preview": "posts/2025-11-06-2025-posit-table-contest-submission/posit.png",
-    "last_modified": "2025-11-06T19:34:52+05:30",
-    "input_file": "2025-posit-table-contest-submission.knit.md",
+    "last_modified": "2026-02-18T21:41:44+05:30",
+    "input_file": {},
     "preview_width": 310,
     "preview_height": 163
   },
@@ -78,7 +78,7 @@
     ],
     "contents": "\n\nTottenham Hotspur 2024/25: A Season of Contrasts\n\nTottenham endured a forgettable Premier League campaign in 2024/25, finishing 17th—just above the relegation zone.\nSo, what exactly went wrong?\nInjuries at the wrong time – Key players were sidelined at different stages, disrupting rhythm and consistency.\nFragile defense – The first-choice centre-back pairing of Micky van de Ven and Cristian Romero managed to play together in only around half of the games.\nLack of squad depth – Beyond the starting XI, Spurs lacked quality reinforcements.\nFew consistent performers – Only Pedro Porro and Dejan Kulusevski featured in more than 70% of league matches (27+ starts across 38 games).\nIn stark contrast, clubs like Liverpool, Arsenal, and Manchester City have built their success on continuity—keeping their core squads intact and their key players fit across the season.\nThe Data Visualization\nLeft chart: Each dot represents whether a Tottenham player started or was benched in a particular matchweek (1–38). It highlights the instability and rotation forced by injuries.\nRight chart: Spurs’ league position across the season, ultimately ending in 17th place.\nYet, amid the domestic struggles came a silver lining. Tottenham lifted the Europa League trophy—their first major silverware in 17 years—securing automatic qualification for the 2025/26 Champions League.\nNow, under Thomas Frank, Spurs face a fascinating challenge: Can they rebuild consistency in the league while competing on Europe’s biggest stage?\n\n\n\n",
     "preview": "posts/2025-09-02-tottenham-squad-avalilability-analysis/football.jpg",
-    "last_modified": "2025-09-07T21:43:33+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {}
   },
   {
@@ -97,7 +97,7 @@
     ],
     "contents": "\n🎥 Premier League 2024/25 – Animated Season Recap with gganimate\nI’ve always been fascinated by how broadcasters present match previews — animated league tables, tactical formations, dramatic progressions across matchweeks. So I decided to bring that experience into R using gganimate.\n📊 Presenting the team positions across all 38 matchweeks, complete with key highlights and movements:\n🏆 Arne Slot wins the Premier League title in his first season as Liverpool manager — a historic start.\n⚔️ Arsenal finish 2nd for the third consecutive season. Consistently close, but not quite there yet.\n🔄 Tottenham pull off the unthinkable — finishing 17th in the league but securing Champions League football by winning the Europa League!\n📉 All three promoted sides — Southampton, Leicester, and Ipswich — head back down to the Championship.\n🔝 Liverpool, Chelsea, Arsenal, Newcastle, Man City, and Tottenham will represent the PL in the Champions League next season.\n🔁 And while the dust settles, the transfer market is already buzzing:\nLiam Delap to Chelsea\nTop talents heading to Liverpool\n⚽ August can’t come soon enough. PL 2025/26 is going to be 🔥.\nData meets drama — just how we like it.\n📈 Built in R using ggplot2 + gganimate + magick .\nPlot using gganimatePlot using gganimatePL Match week-final day\n\nLet’s also visualize how Tottenham and Manchester United struggles in the PL this season\nBoth Tottenham and Manchester United have endured disappointing seasons in the Premier League, racking up a combined total of 40 losses.\nTottenham recorded 22 defeats—their worst-ever Premier League campaign—but still managed to qualify for the Champions League after edging Manchester United 1-0 in the Europa League final in Bilbao.\nUnited, on the other hand, will miss out on European football altogether next season.\nHad the relegated teams—Ipswich, Southampton, and Leicester—been just a bit stronger and picked up more points, we might have seen Spurs and United dragged into a relegation scrap.\nWith Ange Postecoglou sacked as Spurs manager, questions loom over whether Tottenham can cope with the pressure of Champions League football. Meanwhile, all eyes will be on whether Manchester United can return to their best under new manager Rúben Amorim.\nOne thing’s for sure: next season is going to be fascinating. Let’s wait and watch.\n\n\n\n\n",
     "preview": "posts/2025-05-20-premier-league-summary-202425-season/final_week_table.png",
-    "last_modified": "2025-09-07T22:32:58+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {},
     "preview_width": 2566,
     "preview_height": 934
@@ -118,7 +118,7 @@
     ],
     "contents": "\nLiverpool’s Dominance in the Premier League 2024-25: A Look at the Numbers\nAs the leagues across Europe resume after the international break let us visualize some of Liverpool team amazing stats\nDespite their Champions League exit at the hands of PSG and a tough EFL Cup final defeat to Newcastle at Wembley, Liverpool have been nothing short of sensational in the Premier League this season. Sitting at the top of the table with 70 points, they continue to impress.\nHere are some key numbers from their campaign so far (data sourced via {worldfootballR} from FBref):\n🔴 Tactical Setup: Liverpool have predominantly lined up in a 4-2-3-1 formation.\n⚽ Mohamed Salah’s Brilliance: The Egyptian King has delivered 44 goal contributions this season (27 goals & 17 assists), proving once again why he’s world-class.\n⏳ Strong Finishers: Liverpool tend to score most of their goals in the second half of matches.\n🏟️ Near-Perfect Record: Their only Premier League loss this season came against Nottingham Forest at Anfield. A remarkable season so far—can they go all the way? 🏆🔴\nNote: Graphs are updated only till MatchWeek 29\nLiverpool Formations\nGoals scored by Time Ranges\nTop Goal scorers in 2024/25 season\nSalah scoring by Team/Match Week\n\n\n\n\n",
     "preview": "posts/2025-04-02-liverpool-pl-season-summary-202425-season/final_infographic.png",
-    "last_modified": "2025-09-07T22:32:47+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {},
     "preview_width": 3600,
     "preview_height": 2436
@@ -139,7 +139,7 @@
     ],
     "contents": "\n\nEvery August there is always a excitement among football fans as the\nclub football returns for the new season with a bang across Europe.Teams\nwill have to face new challenges ahead of them.\nPremier League is one of the toughest competition across top 5\nEuropean leagues.From title challenges to local derbies to relegation\nbattles it is always a hell of a ride for all the teams\nLet’s look at some interesting numbers at 2022/23 season via data\nfrom transfer market,football reference etc.\nChelsea FC Signings\nFrom sacking Thomas Tuchel and new takeover of the club ,Chelsea\nseason has been a complete disaster. They have spent the most in the\ntransfer market.Let us look at some of their top transfers\n\n\n\n\n\n\n\n\n\nFigure 1: Chelsea 2022/23 Transfers\n\n\n\nTop signings of Chelsea include the likes of Enzo Fernandez,Fofana\n,Mudryk.\nSome of their signings experienced an absence of numbers appearing on\nthe pitch like Aubameyang and Sterling who are experienced in the\nPremier league.\nTitle Race:Man City-Arsenal\n\n\n\n\n\n\nFigure 2: Title Race 2022/23 Transfers\n\n\n\nTwo horse title race between Arsenal and City was the major headline\nlast season.Arsenal were really in control till game week 29 and then 3\nconsecutive draws which proved very costly in hunt for the title where\nthey failed to capitalize 2-0 lead in 2 of the matches and also drew\nagainst Southampton 3-3 at home. Arsenal went on to win only 3 of their\nlast 6 games\nCity meanwhile were consistent after game week 24 where they have not\nlost a single game until the final match week to BrentFord(only side to\nbeat city twice in the 2022/23 season).But from the above graph we can\nalso see that from match week (16-22) city lost 3 games and drew 1 but\nwere consistent after that till the business end of the tournament which\nhelped them to win hatt-rick of PL titles.\nErling Haaland in his first season won the golden boot and his\nnumbers were phenomenal.\n\n\n\n",
     "preview": "posts/2023-08-06-premier-league-2022-23-season-highlights/football.jpg",
-    "last_modified": "2025-09-02T17:22:31+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {}
   },
   {
@@ -158,7 +158,7 @@
     ],
     "contents": "\nShinyI always use Shiny at work for building dashboards which is\nchallenging and exciting.\n\n\nlibrary(shiny)\n\n\n\nA curated list of R Shiny Resources to learn from which includes\nconferences,tutorials,documentations\nShiny Official Site: Shiny-Official Site\nIncludes all R Packages which can be used with\nShiny: Shiny-Extensions\nMastering Shiny by Hadley Wickham: Mastering-Shiny\nShiny related books includes(UI Design,Javascript etc): Shiny-Books\nConference Videos/Playlists:\nAppsilon Shiny Conference: 2022-Conf\nShiny Developer Series: By Eric\nNantz\nShiny Dev conf 2016: By\nJoe Cheng\nRStudio::conf(2022): The\nPast and future of Shiny\nRecently,during RStudio::conf(2022) Shiny for\nPython is introduced\n\n\n\n",
     "preview": "posts/2022-08-20-r-shiny-resuorces/Shiny.jfif",
-    "last_modified": "2025-09-02T17:22:31+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {}
   },
   {
@@ -177,7 +177,7 @@
     ],
     "contents": "\nTidy Tuesday is a weekly R project where people contribute weekly to\nshowcase their R skills\nGithub Repo for Tidy Tuesday: Tidy-Tuesday Link\nMy Tidy Tuesday Contributions:\nOlympics Shiny App: Week31- 2021-07-27\nApp Description & Link: Olympics_App\nOutput table where athletes details are displayed based on\nCountry,Sport & Year,\nPlot displays the medals won by a particular country,sport and year.\nMedal count is counted for all sports(team sports included as well).\n\n\n",
     "preview": "posts/2021-09-01-tidy-tuesday-contributions/TT.png",
-    "last_modified": "2025-09-02T17:22:31+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {},
     "preview_width": 225,
     "preview_height": 225
@@ -198,7 +198,7 @@
     ],
     "contents": "\nAs a data science graduate and a sports enthusiast,I always wanted to\nanalyze sports with respect to data and statistics. I got an opportunity\nto write articles which got published in my college official\nmagazine.(Infobahn)\n1.Impact of AI in Wimbledon Tennis Championships\nThis article focuses impact of Artificial Intelligence(AI) in the\ngame of tennis.\nThe article link - link\n2.Importance of Longest Format(Test Cricket)\nI love watching test cricket because it’s one of the hardest and the\nbest form of the game.This article is mainly focused on test cricket\ngreats and their statistics and importance of 5-day format. Link to the\narticle - link\n\n\n\n",
     "preview": "posts/2021-02-16-college-magazine-articles/blog1.jpg",
-    "last_modified": "2025-09-02T17:22:31+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {}
   },
   {
@@ -217,7 +217,7 @@
     ],
     "contents": "\n\nAs a sports enthusiast,I always explore data and stats with respect\nto all sports.There are a lot of resources for sports analytics which\ntells us the beauty of sports and data.\nSports has always been part of my life.\nResources for Sports Analytics:\nAll major resources in this blog is covered.If I miss out I will be\nupdating it later.\nFootball:\nFbref-One of the top football statistics site in\nwhich event data can be downloaded across all the famous leagues. https://fbref.com/en/\nUnderStat- https://understat.com/\nTransfer Markt- https://www.transfermarkt.co.in/\nPySport- All of us use different programming\nlanguages for our analysis. PySport is a wonderful site in which we can\nfind lot of packages,data,tutorials,documentation for implementing sport\nanalytics.\nhttps://pysport.org/\nThey also have a great community and also on discord.The link to the\ndiscord link\nStatsBomb-One of the top sites for football\nblogs.Analysis is great and they also provide free data.There is a\nstatsBomb conference on 17th March 2021 which is a free online event.Do\nnot miss that.\nOther football blog sites-\nhttps://www.fourfourtwo.com/\nhttps://fivethirtyeight.com/sports/\n\nTutorials-\nhttps://fcpython.com/\nhttp://fcrstats.com/\nFriends of Tracking Youtube-link\nTableau for Sports-link\n\nConferences-\nhttps://statsbomb.com/conference/\nOpta Sport Conference-link\n\nBasketball:\nThere is another sport in which lot of analytics is being done and no\nsurprise.Its Basketball.\nRecently,NBA Team Utah Jazz used Python Dash in players draft for the\nseason 2020-21 article\nResources for BasketBall-\nhttps://www.basketball-reference.com/\nhttps://www.positiveresidual.com/\nhttps://in.nba.com/?gr=www\nhttps://github.com/josedv82/shinyAMS-resources\nFor R Shiny\nTennis:\nhttp://tennisabstract.com/\nCricket:\nhttps://cricsheet.org/downloads/\nhttps://wisden.com/\nFor R Programmers:\nR Resources/Guide for Sports\nAnalytics\nThere is a lot more to come .I’ll keep this blog post updated.If you\nare interested in sports analytics and wanted to work along with me ping\nme on Twitter link\n\n",
     "preview": "posts/2021-02-16-sports-analytics/sport1.jpg",
-    "last_modified": "2025-09-02T17:22:31+05:30",
+    "last_modified": "2026-02-18T21:41:44+05:30",
     "input_file": {}
   }
 ]
