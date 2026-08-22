@@ -2,13 +2,16 @@
 title: "Data Viz Showcase"
 description: |
   A collection of football and sports data visualizations built with R
+output:
+  distill::distill_article:
+    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
-<style>
+```{css echo=FALSE}
 .viz-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -46,115 +49,111 @@ knitr::opts_chunk$set(echo = FALSE)
   color: #333;
 }
 
-/* Modal Styles - Fixed for Distill */
-.modal {
-  display: none !important;
-  position: fixed !important;
-  z-index: 9999 !important;
-  left: 0 !important;
-  top: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-  background-color: rgba(0, 0, 0, 0.8) !important;
-  animation: fadeIn 0.3s ease !important;
-}
-
-.modal.active {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-.modal-content {
-  position: relative !important;
-  background-color: white !important;
-  border-radius: 8px !important;
-  max-width: 90vw !important;
-  max-height: 90vh !important;
-  overflow: auto !important;
-  animation: slideIn 0.3s ease !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
-}
-
-@keyframes slideIn {
-  from {
-    transform: scale(0.9);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.modal-image {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  max-width: 100% !important;
-  border-radius: 8px 8px 0 0 !important;
-}
-
-.close {
-  position: absolute !important;
-  right: 20px !important;
-  top: 20px !important;
-  font-size: 32px !important;
-  font-weight: bold !important;
-  color: white !important;
-  background: rgba(0, 0, 0, 0.5) !important;
-  border: none !important;
-  border-radius: 50% !important;
-  width: 50px !important;
-  height: 50px !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  transition: background 0.3s ease !important;
-  padding: 0 !important;
-  line-height: 1 !important;
-}
-
-.close:hover {
-  background: rgba(0, 0, 0, 0.8) !important;
-}
-
-.modal-footer {
-  padding: 20px !important;
-  background-color: white !important;
-  text-align: center !important;
-  border-top: 1px solid #eee !important;
-}
-
-.view-project-btn {
-  display: inline-block !important;
-  padding: 12px 30px !important;
-  background-color: #0969da !important;
-  color: white !important;
-  text-decoration: none !important;
-  border-radius: 6px !important;
-  font-weight: 500 !important;
-  transition: background-color 0.3s ease !important;
-  border: none !important;
-  cursor: pointer !important;
-}
-
-.view-project-btn:hover {
-  background-color: #0860ca !important;
-}
-
 .viz-description {
   padding: 15px;
   color: #666;
   font-size: 14px;
 }
-</style>
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 85vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  z-index: 10000;
+}
+
+.close:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-footer {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.modal-footer h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.modal-footer p {
+  margin: 0 0 15px 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.view-project-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #0969da;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.view-project-btn:hover {
+  background-color: #0860ca;
+}
+```
 
 # Football Data Visualizations Showcase
 
@@ -162,66 +161,68 @@ Explore a curated collection of football and sports data visualizations built wi
 
 ---
 
+```{r, results='asis'}
+html_content <- '
 <div class="viz-gallery">
 
 <!-- 1. Liverpool Analysis -->
-<div class="viz-card" onclick="openModal(event, 'modal1')">
+<div class="viz-card" onclick="openModal(event, \'modal1\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/01-liverpool_infographic.png" alt="Liverpool Analysis 2024-25" class="viz-image">
   <div class="viz-title">Liverpool 2024-25 Analysis</div>
   <div class="viz-description">Formations, goal scorers & match analysis</div>
 </div>
 
 <!-- 2. Premier League Animation -->
-<div class="viz-card" onclick="openModal(event, 'modal2')">
+<div class="viz-card" onclick="openModal(event, \'modal2\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/02_pl_infographic.png" alt="Premier League 2024-25" class="viz-image">
   <div class="viz-title">Premier League 2024-25 Animation</div>
   <div class="viz-description">Dynamic table positions across match weeks</div>
 </div>
 
 <!-- 3. Tottenham Analysis -->
-<div class="viz-card" onclick="openModal(event, 'modal3')">
+<div class="viz-card" onclick="openModal(event, \'modal3\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Tottenham_Infographic.png" alt="Tottenham Player Availability" class="viz-image">
   <div class="viz-title">Tottenham Spurs Analysis</div>
   <div class="viz-description">Player availability & league positions</div>
 </div>
 
 <!-- 4. Posit Table Contest -->
-<div class="viz-card" onclick="openModal(event, 'modal4')">
+<div class="viz-card" onclick="openModal(event, \'modal4\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/PL_New.png" alt="Posit Table Contest 2025" class="viz-image">
   <div class="viz-title">Posit Table Contest 2025</div>
   <div class="viz-description">Creative table design submission</div>
 </div>
 
 <!-- 5. Promoted Teams -->
-<div class="viz-card" onclick="openModal(event, 'modal5')">
+<div class="viz-card" onclick="openModal(event, \'modal5\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/final_viz.png" alt="Promoted Teams Performance" class="viz-image">
   <div class="viz-title">Promoted Teams Performance</div>
   <div class="viz-description">Analysis of team transitions to Premier League</div>
 </div>
 
 <!-- 6. Transfer Analysis -->
-<div class="viz-card" onclick="openModal(event, 'modal6')">
+<div class="viz-card" onclick="openModal(event, \'modal6\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/06-Transfer-Markt-2025-26-season/final_plot.png" alt="Transfer Analysis 2025-26" class="viz-image">
   <div class="viz-title">January Transfer Analysis 2025-26</div>
   <div class="viz-description">Transfer market trends & spending patterns</div>
 </div>
 
 <!-- 7. Chelsea Strikers -->
-<div class="viz-card" onclick="openModal(event, 'modal7')">
+<div class="viz-card" onclick="openModal(event, \'modal7\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Rplot.png" alt="Chelsea Strikers Analysis" class="viz-image">
   <div class="viz-title">Chelsea Strikers Analysis</div>
   <div class="viz-description">Goal-scoring patterns & striker performance</div>
 </div>
 
 <!-- 8. Title Race -->
-<div class="viz-card" onclick="openModal(event, 'modal8')">
+<div class="viz-card" onclick="openModal(event, \'modal8\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/08-title-race/final_viz_update.png" alt="Title Race 2025-26" class="viz-image">
   <div class="viz-title">Title Race 2025-26</div>
   <div class="viz-description">Premier League competition tracking</div>
 </div>
 
 <!-- 9. EFL Championship -->
-<div class="viz-card" onclick="openModal(event, 'modal9')">
+<div class="viz-card" onclick="openModal(event, \'modal9\')">
   <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/efl_final.png" alt="EFL Championship 2025-26" class="viz-image">
   <div class="viz-title">EFL Championship Top 6 Summary</div>
   <div class="viz-description">Leading teams & promotion contenders</div>
@@ -229,19 +230,17 @@ Explore a curated collection of football and sports data visualizations built wi
 
 </div>
 
----
-
 <!-- MODALS -->
 
 <!-- Modal 1: Liverpool -->
 <div id="modal1" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal1'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal1\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/01-liverpool_infographic.png" alt="Liverpool Analysis" class="modal-image">
     <div class="modal-footer">
       <h3>Liverpool 2024-25 Premier League Analysis</h3>
-      <p>Comprehensive analysis including Liverpool formations, goals scored by time ranges, top goal scorers, and Mohamed Salah's scoring performance across teams and match weeks.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/01-Liverpool%20Infographic" class="view-project-btn">View Project</a>
+      <p>Comprehensive analysis including Liverpool formations, goals scored by time ranges, top goal scorers, and Mohamed Salah\'s scoring performance across teams and match weeks.</p>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/01-Liverpool%20Infographic" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -249,12 +248,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 2: Premier League -->
 <div id="modal2" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal2'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal2\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/02_pl_infographic.png" alt="Premier League Animation" class="modal-image">
     <div class="modal-footer">
       <h3>Premier League 2024-25 Season Animation</h3>
       <p>Dynamic animated visualization using gganimate showing team positions by match week and points accumulation throughout the 38-week season.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/02-Premier%20League%20animation" class="view-project-btn">View Project</a>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/02-Premier%20League%20animation" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -262,12 +261,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 3: Tottenham -->
 <div id="modal3" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal3'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal3\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Tottenham_Infographic.png" alt="Tottenham Analysis" class="modal-image">
     <div class="modal-footer">
       <h3>Tottenham Spurs 2024-25 Player Availability Analysis</h3>
-      <p>Deep dive into Tottenham's squad availability by match week, tracking player injuries, rotations, and their impact on league performance.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/03-PlayingXI-Analysis-Spurs" class="view-project-btn">View Project</a>
+      <p>Deep dive into Tottenham\'s squad availability by match week, tracking player injuries, rotations, and their impact on league performance.</p>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/03-PlayingXI-Analysis-Spurs" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -275,12 +274,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 4: Posit Table -->
 <div id="modal4" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal4'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal4\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/PL_New.png" alt="Posit Table Contest" class="modal-image">
     <div class="modal-footer">
       <h3>Posit Table Contest 2025 Submission</h3>
       <p>A curated visualization submitted to the 2025 Posit Table Contest showcasing creative table designs and interactive elements for sports data.</p>
-      <a href="https://github.com/harikrishna19/Posit-Table-Contest-2025" class="view-project-btn">View Project</a>
+      <a href="https://github.com/harikrishna19/Posit-Table-Contest-2025" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -288,12 +287,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 5: Promoted Teams -->
 <div id="modal5" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal5'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal5\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/final_viz.png" alt="Promoted Teams" class="modal-image">
     <div class="modal-footer">
       <h3>Promoted Teams Performance Analysis</h3>
       <p>Analysis of teams promoted to the Premier League and their performance, including historical context and comparative insights across different eras.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R" class="view-project-btn">View Project</a>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -301,12 +300,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 6: Transfer Analysis -->
 <div id="modal6" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal6'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal6\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/06-Transfer-Markt-2025-26-season/final_plot.png" alt="Transfer Analysis" class="modal-image">
     <div class="modal-footer">
       <h3>January Transfer Analysis: 2025-26 Season</h3>
       <p>Comprehensive transfer market analysis covering transfer values, team movements, spending patterns, and squad improvements for the 2025-26 season.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/06-Transfer-Markt-2025-26-season" class="view-project-btn">View Project</a>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/06-Transfer-Markt-2025-26-season" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -314,12 +313,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 7: Chelsea Strikers -->
 <div id="modal7" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal7'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal7\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Rplot.png" alt="Chelsea Strikers" class="modal-image">
     <div class="modal-footer">
       <h3>Chelsea Strikers Analysis</h3>
-      <p>Focused analysis on Chelsea's striking force including individual and collective metrics, goal contributions, assists, conversion rates, and positioning analysis.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/07-chelsea-striker-analysis" class="view-project-btn">View Project</a>
+      <p>Focused analysis on Chelsea\'s striking force including individual and collective metrics, goal contributions, assists, conversion rates, and positioning analysis.</p>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/07-chelsea-striker-analysis" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -327,12 +326,12 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 8: Title Race -->
 <div id="modal8" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal8'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal8\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/08-title-race/final_viz_update.png" alt="Title Race" class="modal-image">
     <div class="modal-footer">
       <h3>Title Race Visualization: Premier League 2025-26</h3>
       <p>Intense competition tracking for the Premier League title race, featuring top contenders, points gap analysis, and historical comparisons with previous title races.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/08-title-race" class="view-project-btn">View Project</a>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/08-title-race" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
@@ -340,39 +339,43 @@ Explore a curated collection of football and sports data visualizations built wi
 <!-- Modal 9: EFL Championship -->
 <div id="modal9" class="modal" onclick="if(event.target === this) closeModal(this)">
   <div class="modal-content">
-    <button class="close" onclick="closeModal(document.getElementById('modal9'))">&times;</button>
+    <button class="close" onclick="closeModal(document.getElementById(\'modal9\'))">&times;</button>
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/efl_final.png" alt="EFL Championship" class="modal-image">
     <div class="modal-footer">
       <h3>EFL Championship 2025-26 Top 6 Teams Summary</h3>
       <p>Analysis of the top 6 teams in the English Football League Championship, highlighting leading teams, key statistics, trends, and promotion contenders.</p>
-      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/09-efl-championship" class="view-project-btn">View Project</a>
+      <a href="https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/09-efl-championship" class="view-project-btn" target="_blank">View Project</a>
     </div>
   </div>
 </div>
 
----
-
 <script>
 function openModal(event, modalId) {
   const modal = document.getElementById(modalId);
-  modal.classList.add('active');
-  document.body.style.overflow = 'hidden';
+  modal.classList.add("active");
+  document.body.style.overflow = "hidden";
   event.stopPropagation();
 }
 
 function closeModal(modalElement) {
-  modalElement.classList.remove('active');
-  document.body.style.overflow = 'auto';
+  if(modalElement) {
+    modalElement.classList.remove("active");
+    document.body.style.overflow = "auto";
+  }
 }
 
 // Close modal when pressing Escape key
-document.addEventListener('keydown', function(event) {
-  if (event.key === 'Escape') {
-    const modals = document.querySelectorAll('.modal.active');
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    const modals = document.querySelectorAll(".modal.active");
     modals.forEach(modal => {
-      modal.classList.remove('active');
+      modal.classList.remove("active");
     });
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   }
 });
 </script>
+'
+
+cat(html_content)
+```
