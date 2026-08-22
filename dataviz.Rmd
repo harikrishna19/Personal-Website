@@ -4,163 +4,35 @@ description: |
   A collection of football and sports data visualizations built with R
 ---
 
-```{css echo=FALSE}
-.viz-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin: 30px 0;
-}
-
-@media (max-width: 1200px) {
-  .viz-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .viz-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.viz-card {
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border: 1px solid #e0e0e0;
-}
-
-.viz-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-
-.viz-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  display: block;
-}
-
-.viz-card-body {
-  padding: 16px;
-}
-
-.viz-card-title {
-  font-size: 16px;
-  font-weight: 600;
-  color: #222;
-  margin: 0 0 8px 0;
-}
-
-.viz-card-desc {
-  font-size: 13px;
-  color: #666;
-  margin: 0;
-}
-
-/* Modal */
-.modal-overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
-  z-index: 1000;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  overflow-y: auto;
-}
-
-.modal-overlay.active {
-  display: flex;
-}
-
-.modal-box {
-  background: white;
-  border-radius: 8px;
-  max-width: 800px;
-  width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-.modal-close-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 44px;
-  height: 44px;
-  border: none;
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 28px;
-  cursor: pointer;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.2s;
-  z-index: 1001;
-}
-
-.modal-close-btn:hover {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.modal-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px 8px 0 0;
-}
-
-.modal-footer {
-  padding: 20px;
-  text-align: center;
-  border-top: 1px solid #e0e0e0;
-}
-
-.modal-footer h3 {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-  color: #222;
-}
-
-.modal-footer p {
-  margin: 0 0 16px 0;
-  font-size: 14px;
-  color: #555;
-  line-height: 1.6;
-}
-
-.view-source-btn {
-  display: inline-block;
-  padding: 10px 24px;
-  background-color: #0969da;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-}
-
-.view-source-btn:hover {
-  background-color: #0860ca;
-}
-```
-
 ## Football Data Visualizations Showcase
 
 Explore a curated collection of football and sports data visualizations built with R. Click on any card to view the full visualization.
+
+
+```{=html}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Premier League Transfer Viz</title>
+
+  <!-- D3 -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet"
+        href="test.css">
+
+</head>
+
+
+<body>
 
 <div class="viz-grid">
   <div class="viz-card" onclick="openModal(0)">
@@ -170,72 +42,7 @@ Explore a curated collection of football and sports data visualizations built wi
       <div class="viz-card-desc">Formations & goal scorers</div>
     </div>
   </div>
-
-  <div class="viz-card" onclick="openModal(1)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/02_pl_infographic.png" alt="Premier League">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Premier League 2024-25</div>
-      <div class="viz-card-desc">Dynamic season animation</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(2)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Tottenham_Infographic.png" alt="Tottenham">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Tottenham Spurs</div>
-      <div class="viz-card-desc">Player availability</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(3)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/PL_New.png" alt="Posit Table">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Posit Table Contest</div>
-      <div class="viz-card-desc">Creative table design</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(4)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/final_viz.png" alt="Promoted Teams">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Promoted Teams</div>
-      <div class="viz-card-desc">Premier League transitions</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(5)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/06-Transfer-Markt-2025-26-season/final_plot.png" alt="Transfer">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Transfer Analysis</div>
-      <div class="viz-card-desc">2025-26 season trends</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(6)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Rplot.png" alt="Chelsea">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Chelsea Strikers</div>
-      <div class="viz-card-desc">Goal-scoring analysis</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(7)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/08-title-race/final_viz_update.png" alt="Title Race">
-    <div class="viz-card-body">
-      <div class="viz-card-title">Title Race 2025-26</div>
-      <div class="viz-card-desc">Competition tracking</div>
-    </div>
-  </div>
-
-  <div class="viz-card" onclick="openModal(8)">
-    <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/efl_final.png" alt="EFL">
-    <div class="viz-card-body">
-      <div class="viz-card-title">EFL Championship</div>
-      <div class="viz-card-desc">Top 6 teams summary</div>
-    </div>
-  </div>
-</div>
-
+  
 <div class="modal-overlay" id="modal">
   <div class="modal-box">
     <button class="modal-close-btn" onclick="closeModal()">&times;</button>
@@ -248,84 +55,10 @@ Explore a curated collection of football and sports data visualizations built wi
   </div>
 </div>
 
-<script>
-const vizData = [
-  {
-    title: "Liverpool 2024-25 Premier League Analysis",
-    desc: "Comprehensive analysis including Liverpool formations, goals scored by time ranges, top goal scorers, and Mohamed Salah scoring performance across teams and match weeks.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/01-liverpool_infographic.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/01-Liverpool%20Infographic"
-  },
-  {
-    title: "Premier League 2024-25 Season Animation",
-    desc: "Dynamic animated visualization using gganimate showing team positions by match week and points accumulation throughout the 38-week season.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/02_pl_infographic.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/02-Premier%20League%20animation"
-  },
-  {
-    title: "Tottenham Spurs 2024-25 Player Availability Analysis",
-    desc: "Deep dive into Tottenham squad availability by match week, tracking player injuries, rotations, and their impact on league performance.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Tottenham_Infographic.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/03-PlayingXI-Analysis-Spurs"
-  },
-  {
-    title: "Posit Table Contest 2025 Submission",
-    desc: "A curated visualization submitted to the 2025 Posit Table Contest showcasing creative table designs and interactive elements for sports data.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/PL_New.png",
-    link: "https://github.com/harikrishna19/Posit-Table-Contest-2025"
-  },
-  {
-    title: "Promoted Teams Performance Analysis",
-    desc: "Analysis of teams promoted to the Premier League and their performance, including historical context and comparative insights across different eras.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/final_viz.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R"
-  },
-  {
-    title: "January Transfer Analysis: 2025-26 Season",
-    desc: "Comprehensive transfer market analysis covering transfer values, team movements, spending patterns, and squad improvements for the 2025-26 season.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/06-Transfer-Markt-2025-26-season/final_plot.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/06-Transfer-Markt-2025-26-season"
-  },
-  {
-    title: "Chelsea Strikers Analysis",
-    desc: "Focused analysis on Chelsea striking force including individual and collective metrics, goal contributions, assists, conversion rates, and positioning analysis.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/Rplot.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/07-chelsea-striker-analysis"
-  },
-  {
-    title: "Title Race Visualization: Premier League 2025-26",
-    desc: "Intense competition tracking for the Premier League title race, featuring top contenders, points gap analysis, and historical comparisons with previous title races.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/R/08-title-race/final_viz_update.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/08-title-race"
-  },
-  {
-    title: "EFL Championship 2025-26 Top 6 Teams Summary",
-    desc: "Analysis of the top 6 teams in the English Football League Championship, highlighting leading teams, key statistics, trends, and promotion contenders.",
-    image: "https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/efl_final.png",
-    link: "https://github.com/harikrishna19/Football-analysis-24-25/tree/main/R/09-efl-championship"
-  }
-];
+  <script src="test.js"></script>
 
-function openModal(index) {
-  const viz = vizData[index];
-  document.getElementById("modalImage").src = viz.image;
-  document.getElementById("modalTitle").textContent = viz.title;
-  document.getElementById("modalDesc").textContent = viz.desc;
-  document.getElementById("modalLink").href = viz.link;
-  document.getElementById("modal").classList.add("active");
-  document.body.style.overflow = "hidden";
-}
+</body>
 
-function closeModal() {
-  document.getElementById("modal").classList.remove("active");
-  document.body.style.overflow = "auto";
-}
+</html>
 
-document.addEventListener("keydown", function(e) {
-  if (e.key === "Escape") closeModal();
-});
 
-document.getElementById("modal").addEventListener("click", function(e) {
-  if (e.target === this) closeModal();
-});
-</script>

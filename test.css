@@ -1,0 +1,604 @@
+/* =========================================================
+   DATA VIZ SHOWCASE
+   COMPLETE CSS
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+body {
+  background: #f7f7f7;
+}
+
+
+/* =========================================================
+   VISUALIZATION GRID
+   ========================================================= */
+
+.viz-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 24px;
+
+  margin: 30px 0;
+
+  width: 100%;
+}
+
+
+/* =========================================================
+   RESPONSIVE GRID
+   ========================================================= */
+
+@media (max-width: 1200px) {
+
+  .viz-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .viz-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+}
+
+
+/* =========================================================
+   VIZ CARD
+   ========================================================= */
+
+.viz-card {
+
+  background: #ffffff;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  border: 1px solid #e2e2e2;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.08);
+
+  cursor: pointer;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+
+}
+
+
+/* =========================================================
+   CARD HOVER
+   ========================================================= */
+
+.viz-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.15);
+
+}
+
+
+/* =========================================================
+   CARD IMAGE
+   ========================================================= */
+
+.viz-card img {
+
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+
+  display: block;
+
+}
+
+
+/* =========================================================
+   CARD BODY
+   ========================================================= */
+
+.viz-card-body {
+
+  padding: 16px 18px 18px;
+
+}
+
+
+/* =========================================================
+   CARD TITLE
+   ========================================================= */
+
+.viz-card-title {
+
+  margin: 0 0 7px 0;
+
+  font-size: 17px;
+
+  font-weight: 700;
+
+  line-height: 1.3;
+
+  color: #222222;
+
+}
+
+
+/* =========================================================
+   CARD DESCRIPTION
+   ========================================================= */
+
+.viz-card-desc {
+
+  margin: 0;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+
+  color: #666666;
+
+}
+
+
+/* =========================================================
+   MODAL OVERLAY
+   ========================================================= */
+
+.modal-overlay {
+
+  display: none;
+
+  position: fixed;
+
+  inset: 0;
+
+  width: 100vw;
+
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.88);
+
+  z-index: 99999;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 20px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+}
+
+
+/* =========================================================
+   SHOW MODAL
+   ========================================================= */
+
+.modal-overlay.active {
+
+  display: flex;
+
+}
+
+
+/* =========================================================
+   MODAL CONTAINER
+   ========================================================= */
+
+.modal-box {
+
+  position: relative;
+
+  width: min(1100px, 92vw);
+
+  max-height: calc(100vh - 40px);
+
+  background: #ffffff;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  display: flex;
+
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  flex-shrink: 1;
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.45);
+
+}
+
+
+/* =========================================================
+   MODAL IMAGE
+   ========================================================= */
+
+.modal-image {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  max-height: calc(100vh - 190px);
+
+  object-fit: contain;
+
+  background: #111111;
+
+  flex-shrink: 1;
+
+}
+
+
+/* =========================================================
+   MODAL FOOTER
+   ========================================================= */
+
+.modal-footer {
+
+  flex-shrink: 0;
+
+  padding: 16px 24px 18px;
+
+  text-align: center;
+
+  background: #ffffff;
+
+  border-top: 1px solid #eeeeee;
+
+}
+
+
+/* =========================================================
+   MODAL TITLE
+   ========================================================= */
+
+.modal-footer h3 {
+
+  margin: 0 0 7px 0;
+
+  font-size: 20px;
+
+  font-weight: 700;
+
+  line-height: 1.3;
+
+  color: #222222;
+
+}
+
+
+/* =========================================================
+   MODAL DESCRIPTION
+   ========================================================= */
+
+.modal-footer p {
+
+  margin: 0 auto 14px auto;
+
+  max-width: 800px;
+
+  font-size: 14px;
+
+  line-height: 1.45;
+
+  color: #555555;
+
+}
+
+
+/* =========================================================
+   VIEW SOURCE BUTTON
+   ========================================================= */
+
+.view-source-btn {
+
+  display: inline-block;
+
+  padding: 9px 22px;
+
+  background: #0969da;
+
+  color: #ffffff !important;
+
+  text-decoration: none;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  line-height: 1.4;
+
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+
+}
+
+
+.view-source-btn:hover {
+
+  background: #0759b8;
+
+  color: #ffffff !important;
+
+  text-decoration: none;
+
+  transform: translateY(-1px);
+
+}
+
+
+/* =========================================================
+   CLOSE BUTTON
+   ========================================================= */
+
+.modal-close-btn {
+
+  position: absolute;
+
+  top: 12px;
+
+  right: 12px;
+
+  width: 42px;
+
+  height: 42px;
+
+  border: none;
+
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.65);
+
+  color: #ffffff;
+
+  font-size: 27px;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  z-index: 100000;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+
+}
+
+
+.modal-close-btn:hover {
+
+  background: rgba(0, 0, 0, 0.9);
+
+  transform: scale(1.05);
+
+}
+
+
+/* =========================================================
+   MODAL ANIMATION
+   ========================================================= */
+
+.modal-overlay.active .modal-box {
+
+  animation: modalFadeIn 0.25s ease;
+
+}
+
+
+@keyframes modalFadeIn {
+
+  from {
+
+    opacity: 0;
+
+    transform: scale(0.97);
+
+  }
+
+  to {
+
+    opacity: 1;
+
+    transform: scale(1);
+
+  }
+
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 992px) {
+
+  .modal-box {
+
+    width: 94vw;
+
+    max-height: calc(100vh - 30px);
+
+  }
+
+
+  .modal-image {
+
+    max-height: calc(100vh - 180px);
+
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .modal-overlay {
+
+    padding: 10px;
+
+  }
+
+
+  .modal-box {
+
+    width: 96vw;
+
+    max-height: calc(100vh - 20px);
+
+    border-radius: 8px;
+
+  }
+
+
+  .modal-image {
+
+    max-height: calc(100vh - 175px);
+
+  }
+
+
+  .modal-footer {
+
+    padding: 12px 15px 14px;
+
+  }
+
+
+  .modal-footer h3 {
+
+    font-size: 17px;
+
+  }
+
+
+  .modal-footer p {
+
+    font-size: 12px;
+
+    line-height: 1.4;
+
+    margin-bottom: 10px;
+
+  }
+
+
+  .view-source-btn {
+
+    padding: 8px 18px;
+
+    font-size: 13px;
+
+  }
+
+
+  .modal-close-btn {
+
+    width: 38px;
+
+    height: 38px;
+
+    top: 8px;
+
+    right: 8px;
+
+    font-size: 24px;
+
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL SCREENS
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .viz-card img {
+
+    height: 200px;
+
+  }
+
+
+  .viz-card-body {
+
+    padding: 14px;
+
+  }
+
+
+  .viz-card-title {
+
+    font-size: 16px;
+
+  }
+
+
+  .viz-card-desc {
+
+    font-size: 12px;
+
+  }
+
+
+  .modal-footer h3 {
+
+    font-size: 16px;
+
+  }
+
+
+  .modal-footer p {
+
+    font-size: 11px;
+
+  }
+
+}
