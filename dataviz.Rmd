@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
 }
 
 .viz-card:hover {
@@ -45,23 +46,23 @@ knitr::opts_chunk$set(echo = FALSE)
   color: #333;
 }
 
-/* Modal Styles */
+/* Modal Styles - Fixed for Distill */
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  animation: fadeIn 0.3s ease;
+  display: none !important;
+  position: fixed !important;
+  z-index: 9999 !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  animation: fadeIn 0.3s ease !important;
 }
 
 .modal.active {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 @keyframes fadeIn {
@@ -70,13 +71,14 @@ knitr::opts_chunk$set(echo = FALSE)
 }
 
 .modal-content {
-  position: relative;
-  background-color: white;
-  border-radius: 8px;
-  max-width: 90vw;
-  max-height: 90vh;
-  overflow: auto;
-  animation: slideIn 0.3s ease;
+  position: relative !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  max-width: 90vw !important;
+  max-height: 90vh !important;
+  overflow: auto !important;
+  animation: slideIn 0.3s ease !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
 }
 
 @keyframes slideIn {
@@ -91,54 +93,60 @@ knitr::opts_chunk$set(echo = FALSE)
 }
 
 .modal-image {
-  width: 100%;
-  height: auto;
-  display: block;
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  max-width: 100% !important;
+  border-radius: 8px 8px 0 0 !important;
 }
 
 .close {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  font-size: 32px;
-  font-weight: bold;
-  color: white;
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.3s ease;
+  position: absolute !important;
+  right: 20px !important;
+  top: 20px !important;
+  font-size: 32px !important;
+  font-weight: bold !important;
+  color: white !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: background 0.3s ease !important;
+  padding: 0 !important;
+  line-height: 1 !important;
 }
 
 .close:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 
 .modal-footer {
-  padding: 20px;
-  background-color: white;
-  text-align: center;
-  border-top: 1px solid #eee;
+  padding: 20px !important;
+  background-color: white !important;
+  text-align: center !important;
+  border-top: 1px solid #eee !important;
 }
 
 .view-project-btn {
-  display: inline-block;
-  padding: 12px 30px;
-  background-color: #0969da;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
+  display: inline-block !important;
+  padding: 12px 30px !important;
+  background-color: #0969da !important;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  transition: background-color 0.3s ease !important;
+  border: none !important;
+  cursor: pointer !important;
 }
 
 .view-project-btn:hover {
-  background-color: #0860ca;
+  background-color: #0860ca !important;
 }
 
 .viz-description {
@@ -346,8 +354,10 @@ Explore a curated collection of football and sports data visualizations built wi
 
 <script>
 function openModal(event, modalId) {
-  document.getElementById(modalId).classList.add('active');
+  const modal = document.getElementById(modalId);
+  modal.classList.add('active');
   document.body.style.overflow = 'hidden';
+  event.stopPropagation();
 }
 
 function closeModal(modalElement) {
