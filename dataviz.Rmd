@@ -158,13 +158,10 @@ description: |
 }
 ```
 
-Football Data Visualizations Showcase
-=====================================
+## Football Data Visualizations Showcase
 
 Explore a curated collection of football and sports data visualizations built with R. Click on any card to view the full visualization.
 
-```{r, echo=FALSE, results='asis'}
-cat('
 <div class="viz-grid">
   <div class="viz-card" onclick="openModal(0)">
     <img src="https://raw.githubusercontent.com/harikrishna19/Football-analysis-24-25/main/images/01-liverpool_infographic.png" alt="Liverpool">
@@ -332,5 +329,3 @@ document.getElementById("modal").addEventListener("click", function(e) {
   if (e.target === this) closeModal();
 });
 </script>
-')
-```
