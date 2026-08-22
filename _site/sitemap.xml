@@ -2,70 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://www.harikrishna.com/blog.html</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.harikrishna.com/dataviz.html</loc>
+    <lastmod>2026-08-22T14:19:09+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/projects.html</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.harikrishna.com/test.html</loc>
+    <lastmod>2026-08-22T12:41:36+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2026-02-16-premier-league-january-transfer-analysis-202526/</loc>
-    <lastmod>2026-02-18T21:43:24+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2026-01-11-comparison-of-promted-teams-across-premier-league-seasons/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2025-11-06-2025-posit-table-contest-submission/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2025-09-02-tottenham-squad-avalilability-analysis/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2025-05-20-premier-league-summary-202425-season/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2025-04-02-liverpool-pl-season-summary-202425-season/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2023-08-06-premier-league-2022-23-season-highlights/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2022-08-20-r-shiny-resuorces/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2021-09-01-tidy-tuesday-contributions/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2021-02-16-college-magazine-articles/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/posts/2021-02-16-sports-analytics/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/Projects/2024-08-05-premier-league-2023-24-analysis/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/Projects/2021-02-23-201920-top-5-european-leagues-analysis/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
   <url>
     <loc>https://www.harikrishna.com/Projects/2021-02-22-kabaddi-player-comparison/</loc>
-    <lastmod>2026-02-18T21:41:44+05:30</lastmod>
+    <lastmod>2026-08-03T11:10:03+05:30</lastmod>
   </url>
 </urlset>

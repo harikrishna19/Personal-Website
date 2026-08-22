@@ -13,6 +13,8 @@ navbar:
       href: index.html
     - text: "Blog"
       href: blog.html
+    - text: "Data Viz"
+      href: dataviz.html
     - text: "Projects"
       href: projects.html
     - text: "CV"
